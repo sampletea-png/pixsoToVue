@@ -1,0 +1,506 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 6336
+  },
+  "roots": [
+    {
+      "id": "25:438",
+      "type": "FRAME",
+      "name": "容器 1",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "stroke": {
+        "align": "INSIDE",
+        "join": "MITER",
+        "cap": "NONE"
+      },
+      "box": {
+        "w": 1424,
+        "h": 24
+      },
+      "autoLayout": {
+        "direction": "HORIZONTAL",
+        "mode": "HORIZONTAL",
+        "primarySizing": "RESIZE_TO_FIT",
+        "counterSizing": "FIXED",
+        "childPrimarySizing": "FIXED",
+        "childCounterSizing": "RESIZE_TO_FIT",
+        "gap": 1002,
+        "counterGap": 0,
+        "padding": 0,
+        "counterAlign": "center",
+        "itemVertAlign": "CENTER",
+        "align": "center",
+        "includeBorders": true,
+        "minW": 0,
+        "minH": 0
+      },
+      "strokes": [
+        {
+          "type": "solid",
+          "value": "rgba(238,239,241,1)"
+        }
+      ],
+      "strokeWeight": 1,
+      "children": [
+        {
+          "id": "25:439",
+          "type": "FRAME",
+          "name": "画板 71",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 358,
+            "h": 24,
+            "y": -0.5
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "RESIZE_TO_FIT",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 8,
+            "counterGap": 10,
+            "padding": 0,
+            "reverseDraw": true,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "HUG",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "children": [
+            {
+              "id": "25:440",
+              "type": "INSTANCE",
+              "name": "LOGO",
+              "componentRef": "4:1489",
+              "children": [
+                {
+                  "componentNodeRef": "4:1490",
+                  "type": "RECTANGLE",
+                  "name": "蒙版",
+                  "id": "255:586",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "stroke": {
+                      "cap": "NONE"
+                    }
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1491",
+                  "type": "BOOLEAN_OPERATION",
+                  "name": "形状结合备份 16",
+                  "override": {
+                    "box": {
+                      "w": 40.799999,
+                      "x": -8.000238,
+                      "y": -4.799824
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "fills": [
+                      {
+                        "type": "gradient",
+                        "value": "LINEAR",
+                        "stops": [
+                          [
+                            "rgba(50,103,231,1)",
+                            0
+                          ],
+                          [
+                            "rgba(193,220,254,1)",
+                            1
+                          ]
+                        ],
+                        "transform": [
+                          1.307283,
+                          -0.233739,
+                          -0.140633,
+                          0.233739,
+                          1.206749,
+                          -0.481668
+                        ],
+                        "points": [
+                          [
+                            12.899262,
+                            45.729732
+                          ],
+                          [
+                            9.977879,
+                            30.031486
+                          ],
+                          [
+                            40.14297,
+                            24.417878
+                          ]
+                        ]
+                      }
+                    ],
+                    "stroke": {
+                      "cap": "NONE"
+                    }
+                  },
+                  "id": "255:587",
+                  "vectorRef": "255:587",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 2,
+                    "omitted": 2,
+                    "reason": "vector-icon"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1494",
+                  "type": "BOOLEAN_OPERATION",
+                  "name": "形状结合",
+                  "override": {
+                    "box": {
+                      "h": 10.8
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "fills": [
+                      {
+                        "type": "gradient",
+                        "value": "LINEAR",
+                        "stops": [
+                          [
+                            "rgba(193,220,254,1)",
+                            0
+                          ],
+                          [
+                            "rgba(100,145,255,1)",
+                            1
+                          ]
+                        ],
+                        "transform": [
+                          -1.213881,
+                          0,
+                          1.110512,
+                          0,
+                          -0.138269,
+                          0.552919
+                        ],
+                        "points": [
+                          [
+                            29.274997,
+                            -34.920984
+                          ],
+                          [
+                            29.274997,
+                            4.133419
+                          ],
+                          [
+                            2.91328,
+                            4.133419
+                          ]
+                        ]
+                      }
+                    ],
+                    "stroke": {
+                      "cap": "NONE"
+                    }
+                  },
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1495",
+                      "type": "RECTANGLE",
+                      "name": "矩形",
+                      "id": "255:591",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "cap": "NONE"
+                        },
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1496",
+                      "type": "ELLIPSE",
+                      "name": "椭圆形",
+                      "id": "255:592",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "cap": "NONE"
+                        },
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        }
+                      }
+                    }
+                  ],
+                  "id": "255:590"
+                },
+                {
+                  "componentNodeRef": "4:1497",
+                  "type": "VECTOR",
+                  "name": "矢量 1",
+                  "id": "255:593",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "25:441",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 326,
+                "h": 18,
+                "x": 32,
+                "y": 3
+              },
+              "text": {
+                "content": " Param Estimation Toolbox - HAS Behavior",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Bold",
+                "fontSize": 16,
+                "fontWeight": 700,
+                "lineHeight": 18,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25:442",
+          "type": "FRAME",
+          "name": "画板 107",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 64,
+            "h": 16,
+            "x": 1360,
+            "y": 3.5
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "RESIZE_TO_FIT",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 8,
+            "counterGap": 10,
+            "padding": 0,
+            "reverseDraw": true,
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "itemHoriAlign": "MAX",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "HUG",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "children": [
+            {
+              "id": "25:443",
+              "type": "INSTANCE",
+              "name": "Light/icon/16px/close备份",
+              "componentRef": "4:1505",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "fills": [],
+                "effects": []
+              },
+              "children": [
+                {
+                  "componentNodeRef": "4:1506",
+                  "type": "GROUP",
+                  "name": "Icon/installer/minize",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1507",
+                      "type": "RECTANGLE",
+                      "name": "frame",
+                      "id": "255:489",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1508",
+                      "type": "VECTOR",
+                      "name": "路径",
+                      "id": "255:490",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      }
+                    }
+                  ],
+                  "id": "255:488",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "25:444",
+              "type": "INSTANCE",
+              "name": "Light/icon/16px/close备份 2",
+              "box": {
+                "x": 24
+              },
+              "componentRef": "4:1509",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "fills": [],
+                "effects": []
+              },
+              "children": [
+                {
+                  "componentNodeRef": "4:1510",
+                  "type": "RECTANGLE",
+                  "name": "矩形备份 38",
+                  "id": "255:578",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "stroke": {
+                      "cap": "NONE"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "25:445",
+              "type": "INSTANCE",
+              "name": "Light/icon/16px/close",
+              "box": {
+                "x": 48
+              },
+              "componentRef": "4:1511",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "fills": [],
+                "effects": []
+              },
+              "children": [
+                {
+                  "componentNodeRef": "4:1512",
+                  "type": "GROUP",
+                  "name": "Icon/installer/close",
+                  "override": {
+                    "box": {
+                      "x": -0.484964,
+                      "y": -0.484933
+                    },
+                    "blendMode": "PASS_THROUGH"
+                  },
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1513",
+                      "type": "BOOLEAN_OPERATION",
+                      "name": "形状结合",
+                      "id": "255:558",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      },
+                      "vectorRef": "255:558",
+                      "assetType": "icon",
+                      "childrenSummary": {
+                        "total": 2,
+                        "omitted": 2,
+                        "reason": "vector-icon"
+                      }
+                    }
+                  ],
+                  "id": "255:557"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {
+    "components": [
+      {
+        "id": "4:1489",
+        "name": "LOGO",
+        "componentKey": "9901146f087d5f1c3cf95faa51ab08074d32d6cf"
+      },
+      {
+        "id": "4:1505",
+        "name": " Icon/General/Tab工具栏/minimize",
+        "componentKey": "0f1122dcb90c938749cfe360b379ef4916d18105"
+      },
+      {
+        "id": "4:1509",
+        "name": " Icon/General/Tab工具栏/maxmize",
+        "componentKey": "1513f7b8b03c1fb3ee9e33f22fca082feaa7b8fe"
+      },
+      {
+        "id": "4:1511",
+        "name": " Icon/General/Tab工具栏/close",
+        "componentKey": "f9827e023f29c12bee939c7bd49c4e4e2871d1a8"
+      }
+    ],
+    "instances": [
+      "25:440",
+      "25:443",
+      "25:444",
+      "25:445"
+    ],
+    "vectors": [
+      "255:490",
+      "255:558",
+      "255:587",
+      "255:593"
+    ]
+  }
+}

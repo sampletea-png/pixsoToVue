@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-size: var(--font-size-base);
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,3645 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 47898
+  },
+  "roots": [
+    {
+      "id": "16:3793",
+      "type": "FRAME",
+      "name": "容器 350",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "stroke": {
+        "align": "INSIDE",
+        "join": "MITER",
+        "cap": "NONE"
+      },
+      "box": {
+        "w": 328,
+        "h": 844
+      },
+      "autoLayout": {
+        "direction": "VERTICAL",
+        "mode": "VERTICAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          8,
+          8,
+          0,
+          8
+        ],
+        "counterAlign": "flex-start",
+        "itemHoriAlign": "MIN",
+        "align": "center",
+        "minW": 0,
+        "minH": 0
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,1)"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "solid",
+          "value": "rgba(0,0,0,0)"
+        }
+      ],
+      "strokeWeight": 1,
+      "children": [
+        {
+          "id": "16:3794",
+          "type": "FRAME",
+          "name": "容器 48",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 8
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 10,
+            "counterGap": 10,
+            "padding": [
+              4,
+              0,
+              4,
+              4
+            ],
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "itemHoriAlign": "MIN",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(0,0,0,0)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "16:3795",
+              "type": "GROUP",
+              "name": "组合 16",
+              "frameMaskDisabled": false,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 147,
+                "h": 24,
+                "x": 4,
+                "y": 4
+              },
+              "children": [
+                {
+                  "id": "16:3796",
+                  "type": "INSTANCE",
+                  "name": "Icon/General/Tab/Ports",
+                  "componentRef": "4:1370",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1371",
+                      "type": "RECTANGLE",
+                      "name": "frame备份 3",
+                      "id": "255:843",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1372",
+                      "type": "FRAME",
+                      "name": "Icon/General/Tab/Ports",
+                      "children": [
+                        {
+                          "componentNodeRef": "4:1373",
+                          "type": "VECTOR",
+                          "name": "矩形 56",
+                          "id": "255:845",
+                          "override": {
+                            "blendMode": "PASS_THROUGH",
+                            "stroke": {
+                              "align": "INSIDE",
+                              "join": "MITER",
+                              "cap": "NONE"
+                            },
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            }
+                          }
+                        },
+                        {
+                          "componentNodeRef": "4:1374",
+                          "type": "VECTOR",
+                          "name": "矩形 57",
+                          "id": "255:846",
+                          "override": {
+                            "blendMode": "PASS_THROUGH",
+                            "stroke": {
+                              "align": "INSIDE",
+                              "join": "MITER",
+                              "cap": "NONE"
+                            },
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            }
+                          }
+                        },
+                        {
+                          "componentNodeRef": "4:1375",
+                          "type": "RECTANGLE",
+                          "name": "矩形 58",
+                          "id": "255:847",
+                          "override": {
+                            "blendMode": "PASS_THROUGH",
+                            "stroke": {
+                              "join": "MITER",
+                              "cap": "NONE"
+                            },
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            }
+                          }
+                        },
+                        {
+                          "componentNodeRef": "4:1376",
+                          "type": "RECTANGLE",
+                          "name": "矩形 59",
+                          "id": "255:848",
+                          "override": {
+                            "blendMode": "PASS_THROUGH",
+                            "stroke": {
+                              "join": "MITER",
+                              "cap": "NONE"
+                            },
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            }
+                          }
+                        }
+                      ],
+                      "id": "255:844",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3797",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 123,
+                    "h": 16,
+                    "x": 24,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "Ports",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3798",
+          "type": "FRAME",
+          "name": "容器 37",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 48,
+            "x": 8,
+            "y": 40
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 8,
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "itemHoriAlign": "MIN",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,0)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "16:3799",
+              "type": "TEXT",
+              "opacity": 0.5,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 296,
+                "h": 32,
+                "x": 8,
+                "y": 8
+              },
+              "text": {
+                "content": "Enable model ports and bind each one to a CSV header (click to edit).",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 2
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3800",
+          "type": "FRAME",
+          "name": "容器 37",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 48,
+            "x": 8,
+            "y": 88
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "itemHoriAlign": "MIN",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,0)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "16:3801",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 73,
+                "h": 32,
+                "y": 8
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "RESIZE_TO_FIT",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "HUG",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3802",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 57,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Input ports",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3803",
+          "type": "FRAME",
+          "name": "容器 37",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 136
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "itemHoriAlign": "SPACE_EVENLY",
+            "align": "space-between",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,0)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "16:3804",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 162,
+                "h": 32
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "itemHoriAlign": "MIN",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3805",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 14,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Fit",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3806",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 23,
+                    "h": 16,
+                    "x": 30,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Port",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "16:3807",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 150,
+                "h": 32,
+                "x": 162
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "RESIZE_TO_FIT",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "itemHoriAlign": "MIN",
+                "align": "center",
+                "widthResize": "FILL",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3808",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 66,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "CSV header",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3809",
+          "type": "FRAME",
+          "name": "容器 15",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 168
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 8,
+            "counterGap": 0,
+            "padding": [
+              0,
+              8,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(250,250,250,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "16:3810",
+              "type": "INSTANCE",
+              "name": "选中/未选中",
+              "box": {
+                "x": 8,
+                "y": 9
+              },
+              "componentRef": "4:1457",
+              "componentSetRef": "4:1456",
+              "children": [
+                {
+                  "componentNodeRef": "4:1458",
+                  "type": "RECTANGLE",
+                  "name": "矩形",
+                  "id": "255:755",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1459",
+                  "type": "FRAME",
+                  "name": "编组 39",
+                  "id": "255:756",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  },
+                  "vectorRef": "255:756",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 1,
+                    "omitted": 1,
+                    "reason": "vector-icon"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "16:3811",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 124,
+                "h": 16,
+                "x": 30,
+                "y": 8
+              },
+              "text": {
+                "content": "T1",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 1
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            },
+            {
+              "id": "16:3812",
+              "type": "FRAME",
+              "name": "容器 367",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 142,
+                "h": 24,
+                "x": 162,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "16:3813",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 102,
+                    "h": 16,
+                    "x": 8,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "T1",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3815",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 200
+          },
+          "children": [
+            {
+              "id": "16:3816",
+              "type": "FRAME",
+              "name": "容器 15",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 312,
+                "h": 32,
+                "x": 0.000244
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,1)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3817",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 8,
+                    "y": 9
+                  },
+                  "componentRef": "4:1457",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1458",
+                      "type": "RECTANGLE",
+                      "name": "矩形",
+                      "id": "255:718",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1459",
+                      "type": "FRAME",
+                      "name": "编组 39",
+                      "id": "255:719",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      },
+                      "vectorRef": "255:719",
+                      "assetType": "icon",
+                      "childrenSummary": {
+                        "total": 1,
+                        "omitted": 1,
+                        "reason": "vector-icon"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3818",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 124,
+                    "h": 16,
+                    "x": 30,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "T1",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3819",
+                  "type": "FRAME",
+                  "name": "容器 367",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "stroke": {
+                    "align": "INSIDE",
+                    "join": "MITER",
+                    "cap": "NONE"
+                  },
+                  "box": {
+                    "w": 142,
+                    "h": 24,
+                    "x": 162,
+                    "y": 4
+                  },
+                  "autoLayout": {
+                    "direction": "HORIZONTAL",
+                    "mode": "HORIZONTAL",
+                    "primarySizing": "FIXED",
+                    "counterSizing": "FIXED",
+                    "childPrimarySizing": "FIXED",
+                    "childCounterSizing": "FIXED",
+                    "gap": 8,
+                    "counterGap": 10,
+                    "padding": [
+                      0,
+                      8,
+                      0,
+                      8
+                    ],
+                    "counterAlign": "center",
+                    "itemVertAlign": "CENTER",
+                    "itemHoriAlign": "MIN",
+                    "align": "center",
+                    "widthResize": "FIXED",
+                    "heightResize": "FIXED",
+                    "minW": 0,
+                    "minH": 0
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(255,255,255,1)"
+                    }
+                  ],
+                  "strokes": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(0,0,0,0)"
+                    }
+                  ],
+                  "radius": 6,
+                  "strokeWeight": 1,
+                  "children": [
+                    {
+                      "id": "16:3820",
+                      "type": "TEXT",
+                      "opacity": 0.5,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 102,
+                        "h": 16,
+                        "x": 8,
+                        "y": 4
+                      },
+                      "text": {
+                        "content": "T1",
+                        "autoResize": "HEIGHT",
+                        "fontFamily": "Arial",
+                        "fontStyle": "Regular",
+                        "fontSize": 12,
+                        "fontWeight": 400,
+                        "lineHeight": 16,
+                        "lineHeightUnit": "PIXELS",
+                        "letterSpacing": 0,
+                        "letterSpacingUnit": "PIXELS",
+                        "textAlignHorizontal": "left",
+                        "textAlignVertical": "top",
+                        "textDecoration": "none",
+                        "textCase": "origin",
+                        "textTruncation": "ENDING",
+                        "maxLines": 1
+                      },
+                      "fills": [
+                        {
+                          "type": "solid",
+                          "value": "rgba(15,15,15,1)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3822",
+          "type": "FRAME",
+          "name": "容器 15",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 232
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 8,
+            "counterGap": 0,
+            "padding": [
+              0,
+              8,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(250,250,250,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "16:3823",
+              "type": "INSTANCE",
+              "name": "选中/未选中",
+              "box": {
+                "x": 8,
+                "y": 9
+              },
+              "componentRef": "4:1457",
+              "componentSetRef": "4:1456",
+              "children": [
+                {
+                  "componentNodeRef": "4:1458",
+                  "type": "RECTANGLE",
+                  "name": "矩形",
+                  "id": "255:946",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1459",
+                  "type": "FRAME",
+                  "name": "编组 39",
+                  "id": "255:947",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  },
+                  "vectorRef": "255:947",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 1,
+                    "omitted": 1,
+                    "reason": "vector-icon"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "16:3824",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 124,
+                "h": 16,
+                "x": 30,
+                "y": 8
+              },
+              "text": {
+                "content": "v_init_kmh",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 1
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            },
+            {
+              "id": "16:3825",
+              "type": "FRAME",
+              "name": "容器 367",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 142,
+                "h": 24,
+                "x": 162,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "itemHoriAlign": "MIN",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "16:3826",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 102,
+                    "h": 16,
+                    "x": 8,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "v_init_kmh",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3827",
+                  "type": "INSTANCE",
+                  "name": "icon图标/16px/关闭",
+                  "box": {
+                    "x": 118,
+                    "y": 4
+                  },
+                  "componentRef": "4:1502",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "fills": [],
+                    "effects": []
+                  },
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1503",
+                      "type": "RECTANGLE",
+                      "name": "矩形",
+                      "id": "255:1044",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "cap": "NONE"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1504",
+                      "type": "VECTOR",
+                      "name": "三角形",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "box": {
+                          "x": 4.307156,
+                          "y": 5.923218
+                        },
+                        "fills": [
+                          {
+                            "type": "solid",
+                            "value": "rgba(137,146,156,1)"
+                          }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1
+                      },
+                      "id": "255:1045"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3828",
+          "type": "FRAME",
+          "name": "容器 37",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 48,
+            "x": 8,
+            "y": 264
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,0)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "16:3829",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 66,
+                "h": 32,
+                "y": 8
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "RESIZE_TO_FIT",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "HUG",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3830",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 50,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Out ports",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3831",
+          "type": "FRAME",
+          "name": "容器 37",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 312
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "itemHoriAlign": "SPACE_EVENLY",
+            "align": "space-between",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,0)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "16:3832",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 162,
+                "h": 32
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3833",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 14,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Fit",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3834",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 23,
+                    "h": 16,
+                    "x": 30,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Port",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "16:3835",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 150,
+                "h": 32,
+                "x": 162
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "RESIZE_TO_FIT",
+                "childPrimarySizing": "RESIZE_TO_FIT",
+                "childCounterSizing": "FIXED",
+                "gap": 10,
+                "counterGap": 10,
+                "padding": 8,
+                "counterAlign": "flex-start",
+                "itemVertAlign": "MIN",
+                "itemHoriAlign": "MIN",
+                "align": "center",
+                "widthResize": "FILL",
+                "heightResize": "HUG",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3836",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 66,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "CSV header",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3837",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 344
+          },
+          "children": [
+            {
+              "id": "16:3838",
+              "type": "FRAME",
+              "name": "容器 15",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 312,
+                "h": 32,
+                "x": 0.000244
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,1)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3839",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 8,
+                    "y": 9
+                  },
+                  "componentRef": "4:1461",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1462",
+                      "type": "RECTANGLE",
+                      "name": "矩形备份 21",
+                      "id": "255:956",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3840",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 124,
+                    "h": 16,
+                    "x": 30,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "a_imu_x_hat",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3841",
+                  "type": "FRAME",
+                  "name": "容器 367",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "stroke": {
+                    "align": "INSIDE",
+                    "join": "MITER",
+                    "cap": "NONE"
+                  },
+                  "box": {
+                    "w": 142,
+                    "h": 24,
+                    "x": 162,
+                    "y": 4
+                  },
+                  "autoLayout": {
+                    "direction": "HORIZONTAL",
+                    "mode": "HORIZONTAL",
+                    "primarySizing": "FIXED",
+                    "counterSizing": "FIXED",
+                    "childPrimarySizing": "FIXED",
+                    "childCounterSizing": "FIXED",
+                    "gap": 8,
+                    "counterGap": 10,
+                    "padding": [
+                      0,
+                      8,
+                      0,
+                      8
+                    ],
+                    "counterAlign": "center",
+                    "itemVertAlign": "CENTER",
+                    "align": "center",
+                    "widthResize": "FIXED",
+                    "heightResize": "FIXED",
+                    "minW": 0,
+                    "minH": 0
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(255,255,255,1)"
+                    }
+                  ],
+                  "strokes": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(0,0,0,0)"
+                    }
+                  ],
+                  "radius": 6,
+                  "strokeWeight": 1,
+                  "children": [
+                    {
+                      "id": "16:3842",
+                      "type": "TEXT",
+                      "opacity": 0.5,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 102,
+                        "h": 16,
+                        "x": 8,
+                        "y": 4
+                      },
+                      "text": {
+                        "content": "a_imu_x_hat",
+                        "autoResize": "HEIGHT",
+                        "fontFamily": "Arial",
+                        "fontStyle": "Regular",
+                        "fontSize": 12,
+                        "fontWeight": 400,
+                        "lineHeight": 16,
+                        "lineHeightUnit": "PIXELS",
+                        "letterSpacing": 0,
+                        "letterSpacingUnit": "PIXELS",
+                        "textAlignHorizontal": "left",
+                        "textAlignVertical": "top",
+                        "textDecoration": "none",
+                        "textCase": "origin",
+                        "textTruncation": "ENDING",
+                        "maxLines": 1
+                      },
+                      "fills": [
+                        {
+                          "type": "solid",
+                          "value": "rgba(15,15,15,1)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3844",
+          "type": "FRAME",
+          "name": "容器 15",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 376
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 8,
+            "counterGap": 0,
+            "padding": [
+              0,
+              8,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(250,250,250,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "16:3845",
+              "type": "INSTANCE",
+              "name": "选中/未选中",
+              "box": {
+                "x": 8,
+                "y": 9
+              },
+              "componentRef": "4:1461",
+              "componentSetRef": "4:1456",
+              "children": [
+                {
+                  "componentNodeRef": "4:1462",
+                  "type": "RECTANGLE",
+                  "name": "矩形备份 21",
+                  "id": "255:766",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "stroke": {
+                      "align": "INSIDE",
+                      "join": "MITER",
+                      "cap": "NONE"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "16:3846",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 124,
+                "h": 16,
+                "x": 30,
+                "y": 8
+              },
+              "text": {
+                "content": "ax_vehicle",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 1
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            },
+            {
+              "id": "16:3847",
+              "type": "FRAME",
+              "name": "容器 367",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 142,
+                "h": 24,
+                "x": 162,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "16:3848",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 102,
+                    "h": 16,
+                    "x": 8,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "ax_vehicle",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3850",
+          "type": "FRAME",
+          "name": "容器 15",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 408
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 8,
+            "counterGap": 0,
+            "padding": [
+              0,
+              8,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "16:3851",
+              "type": "INSTANCE",
+              "name": "选中/未选中",
+              "box": {
+                "x": 8,
+                "y": 9
+              },
+              "componentRef": "4:1457",
+              "componentSetRef": "4:1456",
+              "children": [
+                {
+                  "componentNodeRef": "4:1458",
+                  "type": "RECTANGLE",
+                  "name": "矩形",
+                  "id": "255:672",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1459",
+                  "type": "FRAME",
+                  "name": "编组 39",
+                  "id": "255:673",
+                  "override": {
+                    "blendMode": "PASS_THROUGH"
+                  },
+                  "vectorRef": "255:673",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 1,
+                    "omitted": 1,
+                    "reason": "vector-icon"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "16:3852",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 124,
+                "h": 16,
+                "x": 30,
+                "y": 8
+              },
+              "text": {
+                "content": "ax_motion",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 1
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            },
+            {
+              "id": "16:3853",
+              "type": "FRAME",
+              "name": "容器 367",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 142,
+                "h": 24,
+                "x": 162,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "16:3854",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 102,
+                    "h": 16,
+                    "x": 8,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "ax_motion",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3856",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 440
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 10,
+            "counterGap": 10,
+            "padding": [
+              0,
+              0.000244,
+              0,
+              0.000244
+            ],
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "children": [
+            {
+              "id": "16:3857",
+              "type": "FRAME",
+              "name": "容器 15",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 311.999512,
+                "h": 32,
+                "x": 0.000244
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "RESIZE_TO_FIT",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FILL",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(250,250,250,1)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3858",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 8,
+                    "y": 9
+                  },
+                  "componentRef": "4:1461",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1462",
+                      "type": "RECTANGLE",
+                      "name": "矩形备份 21",
+                      "id": "255:1030",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3859",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 124,
+                    "h": 16,
+                    "x": 30,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "ax_free",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3860",
+                  "type": "FRAME",
+                  "name": "容器 367",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "stroke": {
+                    "align": "INSIDE",
+                    "join": "MITER",
+                    "cap": "NONE"
+                  },
+                  "box": {
+                    "w": 142,
+                    "h": 24,
+                    "x": 162,
+                    "y": 4
+                  },
+                  "autoLayout": {
+                    "direction": "HORIZONTAL",
+                    "mode": "HORIZONTAL",
+                    "primarySizing": "FIXED",
+                    "counterSizing": "FIXED",
+                    "childPrimarySizing": "FIXED",
+                    "childCounterSizing": "FIXED",
+                    "gap": 8,
+                    "counterGap": 10,
+                    "padding": [
+                      0,
+                      8,
+                      0,
+                      8
+                    ],
+                    "counterAlign": "center",
+                    "itemVertAlign": "CENTER",
+                    "align": "center",
+                    "widthResize": "FIXED",
+                    "heightResize": "FIXED",
+                    "minW": 0,
+                    "minH": 0
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(255,255,255,0)"
+                    }
+                  ],
+                  "strokes": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(0,0,0,0)"
+                    }
+                  ],
+                  "radius": 6,
+                  "strokeWeight": 1,
+                  "children": [
+                    {
+                      "id": "16:3861",
+                      "type": "TEXT",
+                      "opacity": 0.5,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 102,
+                        "h": 16,
+                        "x": 8,
+                        "y": 4
+                      },
+                      "text": {
+                        "content": "ax_free",
+                        "autoResize": "HEIGHT",
+                        "fontFamily": "Arial",
+                        "fontStyle": "Regular",
+                        "fontSize": 12,
+                        "fontWeight": 400,
+                        "lineHeight": 16,
+                        "lineHeightUnit": "PIXELS",
+                        "letterSpacing": 0,
+                        "letterSpacingUnit": "PIXELS",
+                        "textAlignHorizontal": "left",
+                        "textAlignVertical": "top",
+                        "textDecoration": "none",
+                        "textCase": "origin",
+                        "textTruncation": "ENDING",
+                        "maxLines": 1
+                      },
+                      "fills": [
+                        {
+                          "type": "solid",
+                          "value": "rgba(15,15,15,1)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3863",
+          "type": "FRAME",
+          "name": "容器 15",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 472
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 8,
+            "counterGap": 0,
+            "padding": [
+              0,
+              8,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "16:3864",
+              "type": "INSTANCE",
+              "name": "选中/未选中",
+              "box": {
+                "x": 8,
+                "y": 9
+              },
+              "componentRef": "4:1461",
+              "componentSetRef": "4:1456",
+              "children": [
+                {
+                  "componentNodeRef": "4:1462",
+                  "type": "RECTANGLE",
+                  "name": "矩形备份 21",
+                  "id": "255:734",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "stroke": {
+                      "align": "INSIDE",
+                      "join": "MITER",
+                      "cap": "NONE"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "16:3865",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 124,
+                "h": 16,
+                "x": 30,
+                "y": 8
+              },
+              "text": {
+                "content": "v_init_kmh",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 1
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            },
+            {
+              "id": "16:3866",
+              "type": "FRAME",
+              "name": "容器 367",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 142,
+                "h": 24,
+                "x": 162,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "16:3867",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 102,
+                    "h": 16,
+                    "x": 8,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "v_init_kmh",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3869",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 504
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 10,
+            "counterGap": 10,
+            "padding": [
+              0,
+              0.000244,
+              0,
+              0.000244
+            ],
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "children": [
+            {
+              "id": "16:3870",
+              "type": "FRAME",
+              "name": "容器 15",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 311.999512,
+                "h": 32,
+                "x": 0.000244
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "RESIZE_TO_FIT",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FILL",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(250,250,250,1)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16:3871",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 8,
+                    "y": 9
+                  },
+                  "componentRef": "4:1461",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1462",
+                      "type": "RECTANGLE",
+                      "name": "矩形备份 21",
+                      "id": "255:710",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3872",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 124,
+                    "h": 16,
+                    "x": 30,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "pitch_hat",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "16:3873",
+                  "type": "FRAME",
+                  "name": "容器 367",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "stroke": {
+                    "align": "INSIDE",
+                    "join": "MITER",
+                    "cap": "NONE"
+                  },
+                  "box": {
+                    "w": 142,
+                    "h": 24,
+                    "x": 162,
+                    "y": 4
+                  },
+                  "autoLayout": {
+                    "direction": "HORIZONTAL",
+                    "mode": "HORIZONTAL",
+                    "primarySizing": "FIXED",
+                    "counterSizing": "FIXED",
+                    "childPrimarySizing": "FIXED",
+                    "childCounterSizing": "FIXED",
+                    "gap": 8,
+                    "counterGap": 10,
+                    "padding": [
+                      0,
+                      8,
+                      0,
+                      8
+                    ],
+                    "counterAlign": "center",
+                    "itemVertAlign": "CENTER",
+                    "align": "center",
+                    "widthResize": "FIXED",
+                    "heightResize": "FIXED",
+                    "minW": 0,
+                    "minH": 0
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(255,255,255,0)"
+                    }
+                  ],
+                  "strokes": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(0,0,0,0)"
+                    }
+                  ],
+                  "radius": 6,
+                  "strokeWeight": 1,
+                  "children": [
+                    {
+                      "id": "16:3874",
+                      "type": "TEXT",
+                      "opacity": 0.5,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 102,
+                        "h": 16,
+                        "x": 8,
+                        "y": 4
+                      },
+                      "text": {
+                        "content": "pitch_hat",
+                        "autoResize": "HEIGHT",
+                        "fontFamily": "Arial",
+                        "fontStyle": "Regular",
+                        "fontSize": 12,
+                        "fontWeight": 400,
+                        "lineHeight": 16,
+                        "lineHeightUnit": "PIXELS",
+                        "letterSpacing": 0,
+                        "letterSpacingUnit": "PIXELS",
+                        "textAlignHorizontal": "left",
+                        "textAlignVertical": "top",
+                        "textDecoration": "none",
+                        "textCase": "origin",
+                        "textTruncation": "ENDING",
+                        "maxLines": 1
+                      },
+                      "fills": [
+                        {
+                          "type": "solid",
+                          "value": "rgba(15,15,15,1)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:3876",
+          "type": "FRAME",
+          "name": "容器 15",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 536
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 8,
+            "counterGap": 0,
+            "padding": [
+              0,
+              8,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FILL",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "16:3877",
+              "type": "INSTANCE",
+              "name": "选中/未选中",
+              "box": {
+                "x": 8,
+                "y": 9
+              },
+              "componentRef": "4:1461",
+              "componentSetRef": "4:1456",
+              "children": [
+                {
+                  "componentNodeRef": "4:1462",
+                  "type": "RECTANGLE",
+                  "name": "矩形备份 21",
+                  "id": "255:748",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "stroke": {
+                      "align": "INSIDE",
+                      "join": "MITER",
+                      "cap": "NONE"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "16:3878",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 124,
+                "h": 16,
+                "x": 30,
+                "y": 8
+              },
+              "text": {
+                "content": "v_init_kmh",
+                "autoResize": "HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "lineHeight": 16,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "ENDING",
+                "maxLines": 1
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            },
+            {
+              "id": "16:3879",
+              "type": "FRAME",
+              "name": "容器 367",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 142,
+                "h": 24,
+                "x": 162,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,255,255,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "16:3880",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 102,
+                    "h": 16,
+                    "x": 8,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "v_init_kmh",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {
+    "componentSets": [
+      {
+        "id": "4:1456",
+        "name": "选中/未选中",
+        "componentKey": "2fc475c5973f0679839a727b5f80eb671af81979",
+        "propertyDefinitions": [
+          {
+            "name": "属性 1",
+            "values": [
+              "默认",
+              "选中"
+            ]
+          }
+        ],
+        "variants": [
+          {
+            "id": "4:1457",
+            "name": "属性 1=选中",
+            "componentKey": "79506f4e71788c4884f56d51c0ec842e8137ff28",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "选中"
+              }
+            ]
+          },
+          {
+            "id": "4:1461",
+            "name": "属性 1=默认",
+            "componentKey": "4bb8703942f891157ad41af5053e09d0abbd65f9",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "默认"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "id": "4:1370",
+        "name": "Icon/General/Tab/Ports",
+        "componentKey": "ce0a4120bbfa817137c6922a33b5fbf07a7f4b04"
+      },
+      {
+        "id": "4:1502",
+        "name": "Light/icon/16px/expand",
+        "componentKey": "e35dd66610dd94d5097ad866424769dfb03ba06d"
+      }
+    ],
+    "instances": [
+      "16:3796",
+      "16:3810",
+      "16:3817",
+      "16:3823",
+      "16:3827",
+      "16:3839",
+      "16:3845",
+      "16:3851",
+      "16:3858",
+      "16:3864",
+      "16:3871",
+      "16:3877"
+    ],
+    "vectors": [
+      "255:1045",
+      "255:673",
+      "255:719",
+      "255:756",
+      "255:845",
+      "255:846",
+      "255:947"
+    ]
+  }
+}

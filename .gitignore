@@ -1,8 +1,3 @@
-# 运行产物（skill 执行时生成，不入库）
-artifacts/
-output/
-generated-project/
-
 # Python
 __pycache__/
 *.pyc

@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 1429
+  },
+  "roots": [
+    {
+      "id": "16:3884",
+      "type": "FRAME",
+      "name": "容器 380",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "box": {
+        "w": 1068,
+        "h": 40
+      },
+      "autoLayout": {
+        "direction": "HORIZONTAL",
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "RESIZE_TO_FIT",
+        "childPrimarySizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 8,
+        "counterGap": 0,
+        "padding": [
+          4,
+          8,
+          4,
+          8
+        ],
+        "counterAlign": "center",
+        "itemVertAlign": "CENTER",
+        "align": "center",
+        "minW": 0,
+        "minH": 0
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,1)"
+        }
+      ],
+      "children": [
+        {
+          "id": "16:3885",
+          "type": "TEXT",
+          "opacity": 0.5,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 1052,
+            "h": 32,
+            "x": 8,
+            "y": 4
+          },
+          "text": {
+            "content": "Estimation finished. Ceres termination: CONVERGENCE；具体触发判据：参数增量相对尺度已满足用户在 Ceres 中配置的 parameter_tolerance。; optimizer iterations=37, residual evals=1501, SSE=60.3646.",
+            "autoResize": "HEIGHT",
+            "fontFamily": "Arial",
+            "fontStyle": "Regular",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "lineHeight": 16,
+            "lineHeightUnit": "PIXELS",
+            "letterSpacing": 0,
+            "letterSpacingUnit": "PIXELS",
+            "textAlignHorizontal": "left",
+            "textAlignVertical": "top",
+            "textDecoration": "none",
+            "textCase": "origin",
+            "textTruncation": "ENDING",
+            "maxLines": 2
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(15,15,15,1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 339
+  },
+  "roots": [
+    {
+      "id": "75:4046",
+      "type": "FRAME",
+      "name": "容器 397",
+      "frameMaskDisabled": false,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "box": {
+        "w": 1068,
+        "h": 412
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,1)"
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

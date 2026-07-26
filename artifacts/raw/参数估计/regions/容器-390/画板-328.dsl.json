@@ -1,0 +1,423 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 5628
+  },
+  "roots": [
+    {
+      "id": "35:2373",
+      "type": "FRAME",
+      "name": "画板 328",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "box": {
+        "w": 480,
+        "h": 64
+      },
+      "autoLayout": {
+        "direction": "VERTICAL",
+        "mode": "VERTICAL",
+        "primarySizing": "RESIZE_TO_FIT",
+        "counterSizing": "FIXED",
+        "gap": 16,
+        "counterGap": 10,
+        "padding": 0,
+        "reverseDraw": true,
+        "counterAlign": "flex-start",
+        "itemHoriAlign": "MIN",
+        "align": "center",
+        "includeBorders": false,
+        "minW": null,
+        "minH": null,
+        "maxW": null,
+        "maxH": null
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,0)"
+        }
+      ],
+      "children": [
+        {
+          "id": "35:2374",
+          "type": "FRAME",
+          "name": "画板 143",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 480,
+            "h": 24
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 16,
+            "counterGap": 0,
+            "padding": [
+              0,
+              0,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "FILL",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,0)"
+            }
+          ],
+          "children": [
+            {
+              "id": "35:2375",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 200,
+                "h": 16,
+                "x": 8,
+                "y": 4
+              },
+              "text": {
+                "content": "Max iterations",
+                "autoResize": "NONE",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "35:2376",
+              "type": "FRAME",
+              "name": "Light/Input/normal/activated备份 3",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 256,
+                "h": 24,
+                "x": 224
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "RESIZE_TO_FIT",
+                "childCounterSizing": "FIXED",
+                "gap": 128,
+                "counterGap": 0,
+                "padding": [
+                  4,
+                  8,
+                  4,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FILL",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(250,250,250,1)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(220,221,224,1)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "35:2377",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "showMask": true,
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 21,
+                    "h": 14,
+                    "x": 8,
+                    "y": 5
+                  },
+                  "text": {
+                    "content": "220",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "DISABLED",
+                    "maxLines": 0
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "35:2379",
+          "type": "FRAME",
+          "name": "画板 143",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 480,
+            "h": 24,
+            "y": 40
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "RESIZE_TO_FIT",
+            "gap": 16,
+            "counterGap": 0,
+            "padding": [
+              0,
+              0,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "FILL",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,0)"
+            }
+          ],
+          "children": [
+            {
+              "id": "35:2380",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 200,
+                "h": 16,
+                "x": 8,
+                "y": 4
+              },
+              "text": {
+                "content": "Parameter tolerance",
+                "autoResize": "NONE",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "35:2381",
+              "type": "FRAME",
+              "name": "Light/Input/normal/activated备份 3",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 256,
+                "h": 24,
+                "x": 224
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "RESIZE_TO_FIT",
+                "childCounterSizing": "FIXED",
+                "gap": 128,
+                "counterGap": 0,
+                "padding": [
+                  4,
+                  8,
+                  4,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FILL",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(250,250,250,1)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(220,221,224,1)"
+                }
+              ],
+              "radius": 6,
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "35:2382",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "showMask": true,
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 25,
+                    "h": 14,
+                    "x": 8,
+                    "y": 5
+                  },
+                  "text": {
+                    "content": "1e-8",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "DISABLED",
+                    "maxLines": 0
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

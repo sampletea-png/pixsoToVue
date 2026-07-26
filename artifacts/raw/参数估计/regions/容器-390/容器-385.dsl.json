@@ -1,0 +1,208 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 2758
+  },
+  "roots": [
+    {
+      "id": "35:2316",
+      "type": "FRAME",
+      "name": "容器 385",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MAX",
+        "vertical": "MAX"
+      },
+      "box": {
+        "w": 1032,
+        "h": 24
+      },
+      "children": [
+        {
+          "id": "35:2317",
+          "type": "FRAME",
+          "name": "画板 298",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 70,
+            "h": 24,
+            "x": 891
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "RESIZE_TO_FIT",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 10,
+            "counterGap": 10,
+            "padding": [
+              10,
+              16,
+              10,
+              16
+            ],
+            "reverseDraw": true,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "itemHoriAlign": "CENTER",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "HUG",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "radius": 4,
+          "children": [
+            {
+              "id": "35:2318",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "CENTER",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 38,
+                "h": 14,
+                "x": 16,
+                "y": 5
+              },
+              "text": {
+                "content": "Cancel",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(15,15,15,1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "35:2319",
+          "type": "FRAME",
+          "name": "画板 297",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 63,
+            "h": 24,
+            "x": 969
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "RESIZE_TO_FIT",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 10,
+            "counterGap": 10,
+            "padding": [
+              10,
+              16,
+              10,
+              16
+            ],
+            "reverseDraw": true,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "itemHoriAlign": "CENTER",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "HUG",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(26,119,253,1)"
+            }
+          ],
+          "radius": 4,
+          "children": [
+            {
+              "id": "35:2320",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "CENTER",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 31,
+                "h": 14,
+                "x": 16,
+                "y": 5
+              },
+              "text": {
+                "content": "Apply",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(255,254.74501,254.74501,1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

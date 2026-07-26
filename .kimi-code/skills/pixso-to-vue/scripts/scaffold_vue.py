@@ -266,6 +266,10 @@ def main() -> int:
     skipped: list[str] = []
 
     for rel, content in templates(name, modules).items():
+        # --tokens 提供时跳过默认 tokens.css，由拷贝步骤写入真实 tokens
+        if rel == "src/styles/tokens.css" and args.tokens:
+            skipped.append(rel + "(默认模板，由 --tokens 替代)")
+            continue
         write_file(root, rel, content, written, skipped)
     for m in modules:
         for rel, content in module_templates(m).items():

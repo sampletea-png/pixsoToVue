@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 1228
+  },
+  "roots": [
+    {
+      "id": "35:3596",
+      "type": "FRAME",
+      "name": "容器 19",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "box": {
+        "w": 1068,
+        "h": 24
+      },
+      "autoLayout": {
+        "direction": "HORIZONTAL",
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "childPrimarySizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 8,
+        "counterGap": 0,
+        "padding": [
+          0,
+          8,
+          0,
+          8
+        ],
+        "counterAlign": "center",
+        "itemVertAlign": "CENTER",
+        "align": "center",
+        "minW": 0,
+        "minH": 0
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,1)"
+        }
+      ],
+      "children": [
+        {
+          "id": "35:3597",
+          "type": "TEXT",
+          "opacity": 0.5,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 99,
+            "h": 16,
+            "x": 8,
+            "y": 4
+          },
+          "text": {
+            "content": "Scalar parameters",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "fontFamily": "Arial",
+            "fontStyle": "Regular",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "lineHeight": 16,
+            "lineHeightUnit": "PIXELS",
+            "letterSpacing": 0,
+            "letterSpacingUnit": "PIXELS",
+            "textAlignHorizontal": "center",
+            "textAlignVertical": "top",
+            "textDecoration": "none",
+            "textCase": "origin",
+            "textTruncation": "ENDING",
+            "maxLines": 1
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(15,15,15,1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

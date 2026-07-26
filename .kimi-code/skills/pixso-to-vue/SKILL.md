@@ -3,7 +3,7 @@ name: pixso-to-vue
 description: 通过本地 Pixso MCP 将设计稿分阶段转换为架构合理的 Vue 项目（Vite+Vue3+TS+Pinia+Router），含组件语义推断、公共组件抽取、交互推断与自我迭代
 type: prompt
 whenToUse: 当用户要求把 Pixso 设计稿（URL、页面或当前选区）转换/还原/实现为 Vue 项目或前端代码时
-version: 0.1.0
+version: 0.2.0
 ---
 
 # pixso-to-vue：Pixso 设计稿 → Vue 项目
@@ -49,7 +49,7 @@ python ${KIMI_SKILL_DIR}/scripts/extract_tokens.py --out artifacts
 ```
 
 - 产出 `artifacts/01-design-tokens.md` 与 `artifacts/tokens.css`。
-- AI 职责：只处理 md 中「待 AI 判断」的未识别片段；禁止手写 tokens。
+- 设计稿无变量/样式时脚本自动启用 DSL 挖掘回退（也可显式 `--mine-dsl`），产出 `--color-mined-NN` 等频次命名变量；AI 职责：为常用值在 tokens.css 中增加**语义别名**（如 `--color-primary: var(--color-mined-11)`），并处理 md 中「待 AI 判断」的未识别片段；禁止手写 tokens。
 
 ### Phase 2 — 逐页分析（每页独立一轮，禁止一次看多页）
 
@@ -60,6 +60,8 @@ python ${KIMI_SKILL_DIR}/scripts/extract_tokens.py --out artifacts
 3. 按 `${KIMI_SKILL_DIR}/references/interaction-inference.md` 推断该页的交互与跳转（标注置信度）。
 4. 写入 `artifacts/02-analysis/<画板>.md`：区域树、语义组件清单、复用候选、交互推断表。
 5. 完成一页再开始下一页。
+
+**数据硬规则**：DSL（compact）可能不含文本字面量。所有数值/文案类 mock 数据（表格行、表头、指标、图例）必须**逐个从截图读取**并记入分析文档的「数据识别」表；读不全的标 TODO。**禁止编造数据**——Phase 6 只允许使用分析文档中明确记录的数据，文档没有的回 Phase 2 补读，不得"合理生成"。
 
 ### Phase 3 — 架构规划（门禁）
 
@@ -81,16 +83,19 @@ python ${KIMI_SKILL_DIR}/scripts/scaffold_vue.py <目标目录> --name <项目�
 
 ### Phase 5 — 公共组件（一次一个）
 
+**前置步骤（先做）**：汇总「命名实体清单」——遍历全部 `02-analysis/*.md`，列出实现公共组件所需的图标名、按钮文案、表头、图例及选中/禁用等状态变体，确认无一遗漏后再动手（防止组件注册表缺项到验收才暴露）。
+
 按 `03-architecture.md` 的公共组件清单，**一次只实现一个组件**到 `src/components/`：props/slots/emits 来自 Phase 2 变体分析，样式用 tokens.css 变量，禁用硬编码色值/字号。每个组件完成后再做下一个。
 
-### Phase 6 — 页面实现（一次一页，页内一次一区域）
+### Phase 6 — 页面实现（分批实现，批后即验）
 
-对每个模块页面：
+按「骨架 → 面板 → 视图 → 弹窗」分小批实现（每批一个执行单元，**不要一个执行单元包揽全部**），每批完成后立即对照该批涉及的截图做小验收，再进入下一批。每批内部对每个模块页面：
 
 1. 读该页 `artifacts/02-analysis/<画板>.md`。
-2. **一次只实现一个区域**：区域初稿取自 `artifacts/raw/<页>/<画板>.vue.txt`（design_to_code 已生成），按架构重构——公共组件替换为 `<组件>` 调用、样式改用 tokens 变量、语义化标签与命名。
+2. **一次只实现一个区域/组件**：区域初稿取自 `artifacts/raw/<页>/<画板>.vue.txt`（design_to_code 已生成），按架构重构——公共组件替换为 `<组件>` 调用、样式改用 tokens 变量、语义化标签与命名。
 3. 重复结构（列表项）必须用 `v-for` + 数据驱动，禁止复制粘贴静态重复。
-4. 整页完成后对照该页截图自查一遍，再开始下一页。
+4. 数据只许来自分析文档「数据识别」表（见 Phase 2 数据硬规则）。
+5. 整页完成后对照该页截图自查一遍，再开始下一页。
 
 ### Phase 7 — 交互接线
 

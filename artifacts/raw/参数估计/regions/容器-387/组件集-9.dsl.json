@@ -1,0 +1,575 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 7925
+  },
+  "roots": [
+    {
+      "id": "27:2453",
+      "type": "INSTANCE",
+      "name": "组件集 9",
+      "componentRef": "4:1252",
+      "componentSetRef": "4:1251",
+      "override": {
+        "box": {
+          "w": 1068
+        },
+        "autoLayout": {
+          "primarySizing": "FIXED",
+          "padding": [
+            0,
+            8,
+            0,
+            8
+          ]
+        },
+        "fills": [
+          {
+            "type": "solid",
+            "value": "rgba(255,255,255,1)"
+          }
+        ]
+      },
+      "children": [
+        {
+          "componentNodeRef": "4:1253",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "override": {
+            "box": {
+              "x": 8
+            },
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            }
+          },
+          "children": [
+            {
+              "componentNodeRef": "4:1254",
+              "type": "FRAME",
+              "name": "容器 72",
+              "children": [
+                {
+                  "componentNodeRef": "4:1255",
+                  "type": "INSTANCE",
+                  "name": "实例 86",
+                  "componentRef": "4:1463",
+                  "id": "255:2184",
+                  "vectorRef": "255:2184",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 2,
+                    "omitted": 2,
+                    "reason": "vector-icon"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1256",
+                  "type": "TEXT",
+                  "id": "255:2187",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "text": {
+                      "letterSpacing": 0,
+                      "letterSpacingUnit": "PIXELS",
+                      "textAlignHorizontal": "left",
+                      "textAlignVertical": "top",
+                      "textDecoration": "none",
+                      "textCase": "origin",
+                      "textTruncation": "DISABLED",
+                      "maxLines": 0
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    }
+                  }
+                }
+              ],
+              "id": "255:2183",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "stroke": {
+                  "align": "INSIDE",
+                  "join": "MITER",
+                  "cap": "NONE"
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1257",
+              "type": "RECTANGLE",
+              "name": "矩形 56",
+              "id": "255:2188",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1258",
+              "type": "FRAME",
+              "name": "容器 357",
+              "children": [
+                {
+                  "componentNodeRef": "4:1259",
+                  "type": "INSTANCE",
+                  "name": "实例 87",
+                  "componentRef": "4:1466",
+                  "id": "255:2190",
+                  "vectorRef": "255:2190",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 4,
+                    "omitted": 4,
+                    "reason": "vector-icon"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1260",
+                  "type": "TEXT",
+                  "id": "255:2195",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "text": {
+                      "letterSpacing": 0,
+                      "letterSpacingUnit": "PIXELS",
+                      "textAlignHorizontal": "left",
+                      "textAlignVertical": "top",
+                      "textDecoration": "none",
+                      "textCase": "origin",
+                      "textTruncation": "DISABLED",
+                      "maxLines": 0
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    }
+                  }
+                }
+              ],
+              "id": "255:2189",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "stroke": {
+                  "align": "INSIDE",
+                  "join": "MITER",
+                  "cap": "NONE"
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1261",
+              "type": "RECTANGLE",
+              "name": "矩形 56",
+              "id": "255:2196",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1262",
+              "type": "FRAME",
+              "name": "容器 358",
+              "children": [
+                {
+                  "componentNodeRef": "4:1263",
+                  "type": "INSTANCE",
+                  "name": "实例 88",
+                  "componentRef": "4:1471",
+                  "id": "255:2198",
+                  "vectorRef": "255:2198",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 2,
+                    "omitted": 2,
+                    "reason": "vector-icon"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1264",
+                  "type": "TEXT",
+                  "id": "255:2201",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "text": {
+                      "letterSpacing": 0,
+                      "letterSpacingUnit": "PIXELS",
+                      "textAlignHorizontal": "left",
+                      "textAlignVertical": "top",
+                      "textDecoration": "none",
+                      "textCase": "origin",
+                      "textTruncation": "DISABLED",
+                      "maxLines": 0
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    }
+                  }
+                }
+              ],
+              "id": "255:2197",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "stroke": {
+                  "align": "INSIDE",
+                  "join": "MITER",
+                  "cap": "NONE"
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1265",
+              "type": "RECTANGLE",
+              "name": "矩形 56",
+              "id": "255:2202",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1266",
+              "type": "FRAME",
+              "name": "容器 359",
+              "children": [
+                {
+                  "componentNodeRef": "4:1267",
+                  "type": "INSTANCE",
+                  "name": "实例 89",
+                  "componentRef": "4:1484",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1485",
+                      "type": "VECTOR",
+                      "name": "矢量 204",
+                      "id": "255:2205",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "join": "MITER",
+                          "cap": "NONE"
+                        },
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1486",
+                      "type": "ELLIPSE",
+                      "name": "椭圆 3",
+                      "id": "255:2206",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "join": "MITER",
+                          "cap": "NONE"
+                        },
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1487",
+                      "type": "ELLIPSE",
+                      "name": "椭圆 4",
+                      "id": "255:2207",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "join": "MITER",
+                          "cap": "NONE"
+                        },
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1488",
+                      "type": "VECTOR",
+                      "name": "矢量 205",
+                      "id": "255:2208",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "join": "MITER",
+                          "cap": "NONE"
+                        },
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        }
+                      }
+                    }
+                  ],
+                  "id": "255:2204"
+                },
+                {
+                  "componentNodeRef": "4:1268",
+                  "type": "TEXT",
+                  "id": "255:2209",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "text": {
+                      "letterSpacing": 0,
+                      "letterSpacingUnit": "PIXELS",
+                      "textAlignHorizontal": "left",
+                      "textAlignVertical": "top",
+                      "textDecoration": "none",
+                      "textCase": "origin",
+                      "textTruncation": "DISABLED",
+                      "maxLines": 0
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    }
+                  }
+                }
+              ],
+              "id": "255:2203",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "stroke": {
+                  "align": "INSIDE",
+                  "join": "MITER",
+                  "cap": "NONE"
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1269",
+              "type": "RECTANGLE",
+              "name": "矩形 56",
+              "id": "255:2210",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            },
+            {
+              "componentNodeRef": "4:1270",
+              "type": "FRAME",
+              "name": "容器 360",
+              "children": [
+                {
+                  "componentNodeRef": "4:1271",
+                  "type": "INSTANCE",
+                  "name": "实例 90",
+                  "componentRef": "4:1474",
+                  "id": "255:2212",
+                  "vectorRef": "255:2212",
+                  "assetType": "icon",
+                  "childrenSummary": {
+                    "total": 9,
+                    "omitted": 9,
+                    "reason": "vector-icon"
+                  }
+                },
+                {
+                  "componentNodeRef": "4:1272",
+                  "type": "TEXT",
+                  "id": "255:2222",
+                  "override": {
+                    "blendMode": "PASS_THROUGH",
+                    "text": {
+                      "letterSpacing": 0,
+                      "letterSpacingUnit": "PIXELS",
+                      "textAlignHorizontal": "left",
+                      "textAlignVertical": "top",
+                      "textDecoration": "none",
+                      "textCase": "origin",
+                      "textTruncation": "DISABLED",
+                      "maxLines": 0
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    }
+                  }
+                }
+              ],
+              "id": "255:2211",
+              "override": {
+                "blendMode": "PASS_THROUGH",
+                "stroke": {
+                  "align": "INSIDE",
+                  "join": "MITER",
+                  "cap": "NONE"
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            }
+          ],
+          "id": "255:2182"
+        }
+      ]
+    }
+  ],
+  "refsIndex": {
+    "componentSets": [
+      {
+        "id": "4:1251",
+        "name": "组件集 8",
+        "componentKey": "0dd231115313e88efe9604ae686379f9aad09c33",
+        "propertyDefinitions": [
+          {
+            "name": "属性 1",
+            "values": [
+              "Convergence Monitor",
+              "Manual tuning",
+              "Parameter Sensitivity",
+              "Report",
+              "Simulation response"
+            ]
+          }
+        ],
+        "variants": [
+          {
+            "id": "4:1252",
+            "name": "属性 1=Convergence Monitor",
+            "componentKey": "925722b8ee6425984e592794e4eea910793a5e5f",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "Convergence Monitor"
+              }
+            ]
+          },
+          {
+            "id": "4:1273",
+            "name": "属性 1=Report",
+            "componentKey": "006b68e3e92414857c6f5c02111564e01267f189",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "Report"
+              }
+            ]
+          },
+          {
+            "id": "4:1294",
+            "name": "属性 1=Simulation response",
+            "componentKey": "2ce965a62f7117027ae9445eb776207743535a11",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "Simulation response"
+              }
+            ]
+          },
+          {
+            "id": "4:1315",
+            "name": "属性 1=Parameter Sensitivity",
+            "componentKey": "a4f1b3bb875657d90e177e4db3ba3ba9bc85c47b",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "Parameter Sensitivity"
+              }
+            ]
+          },
+          {
+            "id": "4:1336",
+            "name": "属性 1=Manual tuning",
+            "componentKey": "039599a5d3f9be507078b91e62763fc9f557d6c9",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "Manual tuning"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "id": "4:1463",
+        "name": "Icon/General/Tab/Convergence Monitor",
+        "componentKey": "c73216260b8dd198875a09f9d8dd111cd4fad789"
+      },
+      {
+        "id": "4:1466",
+        "name": "Icon/General/Tab/Report",
+        "componentKey": "004abea72af1d4c5bbf2255dfa090a3d97731766"
+      },
+      {
+        "id": "4:1471",
+        "name": "Icon/General/Tab/Simulation response",
+        "componentKey": "be16a7c19c0d1c7ffa980c87f86efb707f4ba315"
+      },
+      {
+        "id": "4:1474",
+        "name": "Icon/General/Tab/Manual tuning",
+        "componentKey": "4eae15ba3289d75c019886756eda3aeb0d1d5ae3"
+      },
+      {
+        "id": "4:1484",
+        "name": "Icon/General/Tab/Parameter Sensitivity",
+        "componentKey": "1e70252073764f03627cdd6e8a01d3651d929461"
+      }
+    ],
+    "instances": [
+      "255:2184",
+      "255:2190",
+      "255:2198",
+      "255:2204",
+      "255:2212",
+      "27:2453"
+    ],
+    "vectors": [
+      "255:2184",
+      "255:2190",
+      "255:2198",
+      "255:2205",
+      "255:2208",
+      "255:2212"
+    ]
+  }
+}

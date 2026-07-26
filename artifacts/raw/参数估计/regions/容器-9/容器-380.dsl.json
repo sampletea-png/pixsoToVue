@@ -1,0 +1,3461 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 42288
+  },
+  "roots": [
+    {
+      "id": "19:2223",
+      "type": "FRAME",
+      "name": "容器 380",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "stroke": {
+        "align": "INSIDE",
+        "join": "MITER",
+        "cap": "NONE"
+      },
+      "box": {
+        "w": 328,
+        "h": 844
+      },
+      "autoLayout": {
+        "direction": "VERTICAL",
+        "mode": "VERTICAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 0,
+        "counterGap": 0,
+        "padding": [
+          8,
+          0,
+          0,
+          8
+        ],
+        "counterAlign": "flex-start",
+        "itemHoriAlign": "MIN",
+        "align": "center",
+        "minW": 0,
+        "minH": 0
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,1)"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "solid",
+          "value": "rgba(0,0,0,0)"
+        }
+      ],
+      "strokeWeight": 1,
+      "children": [
+        {
+          "id": "19:2224",
+          "type": "FRAME",
+          "name": "容器 48",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 8
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": [
+              0,
+              0,
+              0,
+              4
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "itemHoriAlign": "SPACE_EVENLY",
+            "align": "space-between",
+            "widthResize": "FIXED",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(0,0,0,0)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "19:2225",
+              "type": "FRAME",
+              "name": "组合 16",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 151,
+                "h": 24,
+                "x": 4,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "RESIZE_TO_FIT",
+                "counterSizing": "RESIZE_TO_FIT",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 4,
+                "counterGap": 0,
+                "padding": 0,
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "HUG",
+                "heightResize": "HUG",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2226",
+                  "type": "INSTANCE",
+                  "name": "Icon/General/Tab/EstimateResults",
+                  "componentRef": "4:1365",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1366",
+                      "type": "RECTANGLE",
+                      "name": "frame备份 3",
+                      "id": "255:676",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1367",
+                      "type": "FRAME",
+                      "name": "Icon/General/Tab/EstimateResults",
+                      "id": "255:677",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      },
+                      "vectorRef": "255:677",
+                      "assetType": "icon",
+                      "childrenSummary": {
+                        "total": 2,
+                        "omitted": 2,
+                        "reason": "vector-icon"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "19:2227",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 123,
+                    "h": 16,
+                    "x": 28,
+                    "y": 4
+                  },
+                  "text": {
+                    "content": "Datasets",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2228",
+              "type": "GROUP",
+              "name": "组合 20",
+              "frameMaskDisabled": false,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 32,
+                "h": 32,
+                "x": 280
+              },
+              "children": [
+                {
+                  "id": "19:2229",
+                  "type": "FRAME",
+                  "name": "容器 357",
+                  "frameMaskDisabled": false,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MAX",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(170,169,169,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2239",
+                      "type": "INSTANCE",
+                      "name": "Delete",
+                      "box": {
+                        "x": 7.5,
+                        "y": 8
+                      },
+                      "componentRef": "10:1968",
+                      "override": {
+                        "box": {
+                          "w": 16,
+                          "h": 16
+                        }
+                      },
+                      "vectorRef": "19:2239",
+                      "assetType": "icon",
+                      "childrenSummary": {
+                        "total": 1,
+                        "omitted": 1,
+                        "reason": "vector-icon"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19:2240",
+          "type": "FRAME",
+          "name": "容器 37",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "stroke": {
+            "align": "INSIDE",
+            "join": "MITER",
+            "cap": "NONE"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 40
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "flex-start",
+            "itemVertAlign": "MIN",
+            "align": "center",
+            "widthResize": "FIXED",
+            "heightResize": "HUG",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,0)"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "solid",
+              "value": "rgba(238,239,241,1)"
+            }
+          ],
+          "strokeWeight": 1,
+          "children": [
+            {
+              "id": "19:2241",
+              "type": "FRAME",
+              "name": "容器 16",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 143,
+                "h": 32
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "19:2242",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 120,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "NAME",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2243",
+              "type": "FRAME",
+              "name": "容器 19",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 44,
+                "h": 32,
+                "x": 143
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "itemHoriAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "strokeWeight": 1,
+              "children": [
+                {
+                  "id": "19:2244",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 28,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Type",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2245",
+              "type": "FRAME",
+              "name": "容器 22",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 60,
+                "h": 32,
+                "x": 187
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 8,
+                "counterGap": 0,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "itemHoriAlign": "MAX",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(238,239,241,0)"
+                }
+              ],
+              "children": [
+                {
+                  "id": "19:2246",
+                  "type": "TEXT",
+                  "opacity": 0.5,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 44,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Time",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19:2247",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 72
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FIXED",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(250,250,250,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "19:2248",
+              "type": "FRAME",
+              "name": "容器 369",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 34,
+                "h": 32
+              },
+              "children": [
+                {
+                  "id": "19:2249",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 9.999023,
+                    "y": 9
+                  },
+                  "componentRef": "4:1457",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1458",
+                      "type": "RECTANGLE",
+                      "name": "矩形",
+                      "id": "255:829",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      }
+                    },
+                    {
+                      "componentNodeRef": "4:1459",
+                      "type": "FRAME",
+                      "name": "编组 39",
+                      "id": "255:830",
+                      "override": {
+                        "blendMode": "PASS_THROUGH"
+                      },
+                      "vectorRef": "255:830",
+                      "assetType": "icon",
+                      "childrenSummary": {
+                        "total": 1,
+                        "omitted": 1,
+                        "reason": "vector-icon"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2250",
+              "type": "FRAME",
+              "name": "容器 370",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 111,
+                "h": 32,
+                "x": 34
+              },
+              "children": [
+                {
+                  "id": "19:2251",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 103,
+                    "h": 16,
+                    "x": -0.000977,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Result #4",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2252",
+              "type": "FRAME",
+              "name": "容器 371",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 41,
+                "h": 32,
+                "x": 145
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2253",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 25,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Auto",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2254",
+              "type": "FRAME",
+              "name": "容器 372",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 62,
+                "h": 32,
+                "x": 186
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2255",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 46,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "11:28:34",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2256",
+              "type": "FRAME",
+              "name": "容器 368",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 64,
+                "h": 32,
+                "x": 248
+              },
+              "children": [
+                {
+                  "id": "19:2257",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2258",
+                      "type": "GROUP",
+                      "name": "组合 14",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2259",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2260",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 26",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 10,
+                            "h": 10,
+                            "x": 1.999023,
+                            "y": 2
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5
+                        },
+                        {
+                          "id": "19:2261",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 27",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 3.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2262",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 28",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 6.25,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2263",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 29",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 8.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "19:2264",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32,
+                    "x": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2265",
+                      "type": "GROUP",
+                      "name": "组合 15",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "CENTER",
+                        "vertical": "CENTER"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2266",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2267",
+                          "type": "VECTOR",
+                          "name": "矩形 55",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 8,
+                            "h": 9,
+                            "x": 3,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2267"
+                        },
+                        {
+                          "id": "19:2268",
+                          "type": "VECTOR",
+                          "name": "矢量 195",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 4,
+                            "x": 7,
+                            "y": 5
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2268"
+                        },
+                        {
+                          "id": "19:2269",
+                          "type": "VECTOR",
+                          "name": "矢量 193",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 12,
+                            "h": 1.5,
+                            "x": 1,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2269"
+                        },
+                        {
+                          "id": "19:2270",
+                          "type": "VECTOR",
+                          "name": "矢量 194",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 2,
+                            "x": 7,
+                            "y": 1
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2270"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19:2271",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 104
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FIXED",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "19:2272",
+              "type": "FRAME",
+              "name": "容器 369",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 34,
+                "h": 32
+              },
+              "children": [
+                {
+                  "id": "19:2273",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 9.999023,
+                    "y": 9
+                  },
+                  "componentRef": "4:1461",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1462",
+                      "type": "RECTANGLE",
+                      "name": "矩形备份 21",
+                      "id": "255:913",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2274",
+              "type": "FRAME",
+              "name": "容器 370",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 111,
+                "h": 32,
+                "x": 34
+              },
+              "children": [
+                {
+                  "id": "19:2275",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 103,
+                    "h": 16,
+                    "x": -0.000977,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Result #3",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2276",
+              "type": "FRAME",
+              "name": "容器 371",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 41,
+                "h": 32,
+                "x": 145
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2277",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 25,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Auto",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2278",
+              "type": "FRAME",
+              "name": "容器 372",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 62,
+                "h": 32,
+                "x": 186
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2279",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 47,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "10:21:54",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2280",
+              "type": "FRAME",
+              "name": "容器 368",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 64,
+                "h": 32,
+                "x": 248
+              },
+              "children": [
+                {
+                  "id": "19:2281",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2282",
+                      "type": "GROUP",
+                      "name": "组合 14",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2283",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2284",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 26",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 10,
+                            "h": 10,
+                            "x": 1.999023,
+                            "y": 2
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5
+                        },
+                        {
+                          "id": "19:2285",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 27",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 3.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2286",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 28",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 6.25,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2287",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 29",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 8.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "19:2288",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32,
+                    "x": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2289",
+                      "type": "GROUP",
+                      "name": "组合 15",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "CENTER",
+                        "vertical": "CENTER"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2290",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2291",
+                          "type": "VECTOR",
+                          "name": "矩形 55",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 8,
+                            "h": 9,
+                            "x": 3,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2291"
+                        },
+                        {
+                          "id": "19:2292",
+                          "type": "VECTOR",
+                          "name": "矢量 195",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 4,
+                            "x": 7,
+                            "y": 5
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2292"
+                        },
+                        {
+                          "id": "19:2293",
+                          "type": "VECTOR",
+                          "name": "矢量 193",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 12,
+                            "h": 1.5,
+                            "x": 1,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2293"
+                        },
+                        {
+                          "id": "19:2294",
+                          "type": "VECTOR",
+                          "name": "矢量 194",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 2,
+                            "x": 7,
+                            "y": 1
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2294"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19:2295",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 136
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FIXED",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(250,250,250,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "19:2296",
+              "type": "FRAME",
+              "name": "容器 369",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 34,
+                "h": 32
+              },
+              "children": [
+                {
+                  "id": "19:2297",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 9.999023,
+                    "y": 9
+                  },
+                  "componentRef": "4:1461",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1462",
+                      "type": "RECTANGLE",
+                      "name": "矩形备份 21",
+                      "id": "255:554",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2298",
+              "type": "FRAME",
+              "name": "容器 370",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 111,
+                "h": 32,
+                "x": 34
+              },
+              "children": [
+                {
+                  "id": "19:2299",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 103,
+                    "h": 16,
+                    "x": -0.000977,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Result #2",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2300",
+              "type": "FRAME",
+              "name": "容器 371",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 41,
+                "h": 32,
+                "x": 145
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2301",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 25,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Auto",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2302",
+              "type": "FRAME",
+              "name": "容器 372",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 62,
+                "h": 32,
+                "x": 186
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2303",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 46,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "11:28:34",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2304",
+              "type": "FRAME",
+              "name": "容器 368",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 64,
+                "h": 32,
+                "x": 248
+              },
+              "children": [
+                {
+                  "id": "19:2305",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2306",
+                      "type": "GROUP",
+                      "name": "组合 14",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2307",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2308",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 26",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 10,
+                            "h": 10,
+                            "x": 1.999023,
+                            "y": 2
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5
+                        },
+                        {
+                          "id": "19:2309",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 27",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 3.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2310",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 28",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 6.25,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2311",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 29",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 8.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "19:2312",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32,
+                    "x": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2313",
+                      "type": "GROUP",
+                      "name": "组合 15",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "CENTER",
+                        "vertical": "CENTER"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2314",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2315",
+                          "type": "VECTOR",
+                          "name": "矩形 55",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 8,
+                            "h": 9,
+                            "x": 3,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2315"
+                        },
+                        {
+                          "id": "19:2316",
+                          "type": "VECTOR",
+                          "name": "矢量 195",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 4,
+                            "x": 7,
+                            "y": 5
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2316"
+                        },
+                        {
+                          "id": "19:2317",
+                          "type": "VECTOR",
+                          "name": "矢量 193",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 12,
+                            "h": 1.5,
+                            "x": 1,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2317"
+                        },
+                        {
+                          "id": "19:2318",
+                          "type": "VECTOR",
+                          "name": "矢量 194",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 2,
+                            "x": 7,
+                            "y": 1
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2318"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19:2319",
+          "type": "FRAME",
+          "name": "组件集 3",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 312,
+            "h": 32,
+            "x": 8,
+            "y": 168
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": 0,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "widthResize": "FIXED",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,1)"
+            }
+          ],
+          "children": [
+            {
+              "id": "19:2320",
+              "type": "FRAME",
+              "name": "容器 369",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 34,
+                "h": 32
+              },
+              "children": [
+                {
+                  "id": "19:2321",
+                  "type": "INSTANCE",
+                  "name": "选中/未选中",
+                  "box": {
+                    "x": 9.999023,
+                    "y": 9
+                  },
+                  "componentRef": "4:1461",
+                  "componentSetRef": "4:1456",
+                  "children": [
+                    {
+                      "componentNodeRef": "4:1462",
+                      "type": "RECTANGLE",
+                      "name": "矩形备份 21",
+                      "id": "255:879",
+                      "override": {
+                        "blendMode": "PASS_THROUGH",
+                        "stroke": {
+                          "align": "INSIDE",
+                          "join": "MITER",
+                          "cap": "NONE"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2322",
+              "type": "FRAME",
+              "name": "容器 370",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 111,
+                "h": 32,
+                "x": 34
+              },
+              "children": [
+                {
+                  "id": "19:2323",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 103,
+                    "h": 16,
+                    "x": -0.000977,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Result #1",
+                    "autoResize": "HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "left",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2324",
+              "type": "FRAME",
+              "name": "容器 371",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 41,
+                "h": 32,
+                "x": 145
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2325",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 25,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "Auto",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2326",
+              "type": "FRAME",
+              "name": "容器 372",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 62,
+                "h": 32,
+                "x": 186
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 0,
+                "counterGap": 10,
+                "padding": [
+                  0,
+                  8,
+                  0,
+                  8
+                ],
+                "counterAlign": "center",
+                "itemVertAlign": "CENTER",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "FIXED",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "19:2327",
+                  "type": "TEXT",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 46,
+                    "h": 16,
+                    "x": 8,
+                    "y": 8
+                  },
+                  "text": {
+                    "content": "11:28:34",
+                    "autoResize": "WIDTH_AND_HEIGHT",
+                    "fontFamily": "Arial",
+                    "fontStyle": "Regular",
+                    "fontSize": 12,
+                    "fontWeight": 400,
+                    "lineHeight": 16,
+                    "lineHeightUnit": "PIXELS",
+                    "letterSpacing": 0,
+                    "letterSpacingUnit": "PIXELS",
+                    "textAlignHorizontal": "center",
+                    "textAlignVertical": "top",
+                    "textDecoration": "none",
+                    "textCase": "origin",
+                    "textTruncation": "ENDING",
+                    "maxLines": 1
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(15,15,15,1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19:2328",
+              "type": "FRAME",
+              "name": "容器 368",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 64,
+                "h": 32,
+                "x": 248
+              },
+              "children": [
+                {
+                  "id": "19:2329",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2330",
+                      "type": "GROUP",
+                      "name": "组合 14",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2331",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2332",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 26",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 10,
+                            "h": 10,
+                            "x": 1.999023,
+                            "y": 2
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5
+                        },
+                        {
+                          "id": "19:2333",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 27",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 3.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2334",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 28",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 6.25,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "19:2335",
+                          "type": "ELLIPSE",
+                          "name": "椭圆 29",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "MIN",
+                            "vertical": "MIN"
+                          },
+                          "box": {
+                            "w": 1.5,
+                            "h": 1.5,
+                            "x": 8.75,
+                            "y": 6.25
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "19:2336",
+                  "type": "FRAME",
+                  "name": "容器 12",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 32,
+                    "h": 32,
+                    "x": 32
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(250,250,250,0)"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "19:2337",
+                      "type": "GROUP",
+                      "name": "组合 15",
+                      "frameMaskDisabled": false,
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "CENTER",
+                        "vertical": "CENTER"
+                      },
+                      "box": {
+                        "w": 14,
+                        "h": 14,
+                        "x": 9,
+                        "y": 9
+                      },
+                      "children": [
+                        {
+                          "id": "19:2338",
+                          "type": "RECTANGLE",
+                          "name": "矩形备份 21",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            }
+                          ],
+                          "strokeWeight": 1
+                        },
+                        {
+                          "id": "19:2339",
+                          "type": "VECTOR",
+                          "name": "矩形 55",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 8,
+                            "h": 9,
+                            "x": 3,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2339"
+                        },
+                        {
+                          "id": "19:2340",
+                          "type": "VECTOR",
+                          "name": "矢量 195",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 4,
+                            "x": 7,
+                            "y": 5
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2340"
+                        },
+                        {
+                          "id": "19:2341",
+                          "type": "VECTOR",
+                          "name": "矢量 193",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 12,
+                            "h": 1.5,
+                            "x": 1,
+                            "y": 3
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2341"
+                        },
+                        {
+                          "id": "19:2342",
+                          "type": "VECTOR",
+                          "name": "矢量 194",
+                          "blendMode": "PASS_THROUGH",
+                          "constraints": {
+                            "horizontal": "CENTER",
+                            "vertical": "CENTER"
+                          },
+                          "stroke": {
+                            "align": "CENTER",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 0,
+                            "h": 2,
+                            "x": 7,
+                            "y": 1
+                          },
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(137,146,156,1)"
+                            }
+                          ],
+                          "strokeWeight": 1.5,
+                          "vectorRef": "19:2342"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {
+    "componentSets": [
+      {
+        "id": "4:1456",
+        "name": "选中/未选中",
+        "componentKey": "2fc475c5973f0679839a727b5f80eb671af81979",
+        "propertyDefinitions": [
+          {
+            "name": "属性 1",
+            "values": [
+              "默认",
+              "选中"
+            ]
+          }
+        ],
+        "variants": [
+          {
+            "id": "4:1457",
+            "name": "属性 1=选中",
+            "componentKey": "79506f4e71788c4884f56d51c0ec842e8137ff28",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "选中"
+              }
+            ]
+          },
+          {
+            "id": "4:1461",
+            "name": "属性 1=默认",
+            "componentKey": "4bb8703942f891157ad41af5053e09d0abbd65f9",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "默认"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "id": "10:1968",
+        "name": "Delete",
+        "componentKey": "53af6806ceef0c9736d4e86d56eea5c99eab0e76"
+      },
+      {
+        "id": "4:1365",
+        "name": "Icon/General/Tab/EstimateResults",
+        "componentKey": "3f3fef5a0522a3c6b10340c490fb46d5736c1f38"
+      }
+    ],
+    "instances": [
+      "19:2226",
+      "19:2239",
+      "19:2249",
+      "19:2273",
+      "19:2297",
+      "19:2321"
+    ],
+    "vectors": [
+      "19:2239",
+      "19:2267",
+      "19:2268",
+      "19:2269",
+      "19:2270",
+      "19:2291",
+      "19:2292",
+      "19:2293",
+      "19:2294",
+      "19:2315",
+      "19:2316",
+      "19:2317",
+      "19:2318",
+      "19:2339",
+      "19:2340",
+      "19:2341",
+      "19:2342",
+      "255:677",
+      "255:830"
+    ]
+  }
+}

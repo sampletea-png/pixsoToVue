@@ -1,0 +1,5 @@
+{
+  "variable_sets": "{}\nIMPORTANT: After you call this tool, you need to distinguish between local variables and remote variables, and variables that have been deleted do not need to be given to the user, if the variable attribute contains canvasUrl, it is a remote variable, otherwise it is a local variable",
+  "variables": {},
+  "local_styles": {}
+}

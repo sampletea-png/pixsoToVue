@@ -113,6 +113,66 @@ def extract(raw: dict) -> tuple[dict, list]:
     return tokens, unknown
 
 
+def mine_dsl(raw_dir: Path) -> tuple[dict, list]:
+    """回退模式：设计稿无变量/样式时，从 collect_design 落盘的 DSL 挖掘高频样式值。
+
+    确定性规则：
+      颜色：fills/strokes/渐变 stop 中的 rgba() 字符串，按频次降序命名 --color-mined-NN（透明色跳过）
+      字号：fontSize 数值，按频次降序命名 --font-size-mined-NN
+      圆角：cornerRadius/radius 数值，按频次降序命名 --radius-mined-NN
+    命名为频次序号（无语义）；语义别名（如 --color-primary）由 AI 在 md 中补充映射。
+    """
+    color_pat = re.compile(r'"value"\s*:\s*"(rgba?\([^"]+\))"')
+    stop_pat = re.compile(r'\["(rgba?\([^"]+\))",\s*[\d.]+\]')
+    transparent = re.compile(r"rgba?\([\d.,\s]+,\s*0\s*\)$")
+    colors: dict[str, int] = {}
+    font_sizes: dict[float, int] = {}
+    radii: dict[float, int] = {}
+
+    def count(counter: dict, key, n=1):
+        counter[key] = counter.get(key, 0) + n
+
+    def walk(value):
+        if isinstance(value, dict):
+            for k, v in value.items():
+                kl = k.lower()
+                if kl == "fontsize" and isinstance(v, (int, float)):
+                    count(font_sizes, v)
+                elif kl in ("cornerradius", "radius") and isinstance(v, (int, float)):
+                    count(radii, v)
+                walk(v)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item)
+
+    dsl_files = sorted(raw_dir.rglob("*.dsl.json")) if raw_dir.exists() else []
+    for f in dsl_files:
+        try:
+            text = f.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for c in color_pat.findall(text) + stop_pat.findall(text):
+            if not transparent.search(c):
+                count(colors, c)
+        try:
+            walk(json.loads(text))
+        except json.JSONDecodeError:
+            continue
+
+    tokens: dict[str, str] = {}
+    stats: list[str] = [f"- 扫描 DSL 文件 {len(dsl_files)} 个"]
+    for i, (color, n) in enumerate(sorted(colors.items(), key=lambda kv: -kv[1])[:20], 1):
+        tokens[f"--color-mined-{i:02d}"] = color
+        stats.append(f"- `--color-mined-{i:02d}` = {color}（{n} 次）")
+    for i, (size, n) in enumerate(sorted(font_sizes.items(), key=lambda kv: -kv[1])[:8], 1):
+        tokens[f"--font-size-mined-{i:02d}"] = f"{size}px"
+        stats.append(f"- `--font-size-mined-{i:02d}` = {size}px（{n} 次）")
+    for i, (r, n) in enumerate(sorted(radii.items(), key=lambda kv: -kv[1])[:6], 1):
+        tokens[f"--radius-mined-{i:02d}"] = f"{r}px"
+        stats.append(f"- `--radius-mined-{i:02d}` = {r}px（{n} 次）")
+    return tokens, stats
+
+
 def main() -> int:
     for stream in (sys.stdout, sys.stderr):
         try:
@@ -122,6 +182,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--out", default="artifacts")
     parser.add_argument("--include-remote", action="store_true", help="同时拉取远程库样式")
+    parser.add_argument("--mine-dsl", action="store_true",
+                        help="回退模式：从 <out>/raw 的 DSL 挖掘高频样式值（无变量/样式时自动启用）")
     parser.add_argument("--server", default=DEFAULT_SERVER)
     parser.add_argument("--timeout", type=float, default=120.0)
     args = parser.parse_args()
@@ -156,6 +218,17 @@ def main() -> int:
 
     tokens, unknown = extract(raw)
 
+    # DSL 挖掘回退：显式指定，或变量/样式一无所获且 raw 下已有 DSL
+    mined_stats: list[str] = []
+    if args.mine_dsl or not tokens:
+        mined, mined_stats = mine_dsl(raw_dir)
+        if mined:
+            for k, v in mined.items():
+                tokens.setdefault(k, v)
+            print(f"[信息] DSL 挖掘补充 tokens {len(mined)} 个", file=sys.stderr)
+        elif not tokens:
+            print("[警告] DSL 挖掘也无产出（raw 下无 DSL？先运行 collect_design.py）", file=sys.stderr)
+
     # tokens.css
     css_lines = [":root {"]
     css_lines += [f"  {k}: {v};" for k, v in sorted(tokens.items())]
@@ -168,6 +241,11 @@ def main() -> int:
           "", "## CSS Variables（tokens.css）", "",
           "| 变量 | 值 |", "| --- | --- |"]
     md += [f"| `{k}` | `{v}` |" for k, v in sorted(tokens.items())]
+    if mined_stats:
+        md += ["", "## DSL 挖掘明细（--mine-dsl 回退）", "",
+               "> mined 命名为频次序号无语义；AI 可在 tokens.css 中为常用值增加语义别名",
+               "> （如 `--color-primary: var(--color-mined-08)`），勿改 mined 行本身。", ""]
+        md += mined_stats
     md += ["", "## 待 AI 判断（脚本无法识别的原始片段）", ""]
     if unknown:
         md += [f"- {u}" for u in unknown]

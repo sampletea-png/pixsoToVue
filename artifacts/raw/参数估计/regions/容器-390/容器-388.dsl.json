@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 1288
+  },
+  "roots": [
+    {
+      "id": "35:2327",
+      "type": "FRAME",
+      "name": "容器 388",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "box": {
+        "w": 1032,
+        "h": 28
+      },
+      "autoLayout": {
+        "direction": "HORIZONTAL",
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "childPrimarySizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 4,
+        "counterGap": 0,
+        "padding": [
+          0,
+          8,
+          0,
+          8
+        ],
+        "counterAlign": "center",
+        "itemVertAlign": "CENTER",
+        "align": "center",
+        "minW": 0,
+        "minH": 0
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(233,242,255,0)"
+        },
+        {
+          "type": "solid",
+          "value": "rgba(250,250,250,1)"
+        }
+      ],
+      "children": [
+        {
+          "id": "35:2328",
+          "type": "TEXT",
+          "blendMode": "PASS_THROUGH",
+          "showMask": true,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 136,
+            "h": 16,
+            "x": 8,
+            "y": 6
+          },
+          "text": {
+            "content": "Least-squares backend",
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "fontFamily": "PingFang SC",
+            "fontStyle": "Medium",
+            "fontSize": 12,
+            "fontWeight": 500,
+            "lineHeight": 16,
+            "lineHeightUnit": "PIXELS",
+            "letterSpacing": 0,
+            "letterSpacingUnit": "PIXELS",
+            "textAlignHorizontal": "left",
+            "textAlignVertical": "top",
+            "textDecoration": "none",
+            "textCase": "origin",
+            "textTruncation": "DISABLED",
+            "maxLines": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(15,15,15,1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

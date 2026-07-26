@@ -1,0 +1,512 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 6844
+  },
+  "roots": [
+    {
+      "id": "73:3913",
+      "type": "FRAME",
+      "name": "容器 366",
+      "frameMaskDisabled": false,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "stroke": {
+        "align": "INSIDE",
+        "join": "MITER",
+        "cap": "NONE"
+      },
+      "box": {
+        "w": 1440,
+        "h": 24
+      },
+      "autoLayout": {
+        "direction": "HORIZONTAL",
+        "mode": "HORIZONTAL",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "childPrimarySizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 0,
+        "counterGap": 10,
+        "padding": [
+          10,
+          8,
+          10,
+          8
+        ],
+        "counterAlign": "center",
+        "itemVertAlign": "CENTER",
+        "itemHoriAlign": "SPACE_EVENLY",
+        "align": "space-between",
+        "minW": 0,
+        "minH": 0
+      },
+      "strokes": [
+        {
+          "type": "solid",
+          "value": "rgba(238,239,241,1)"
+        }
+      ],
+      "strokeWeight": 1,
+      "children": [
+        {
+          "id": "73:3914",
+          "type": "FRAME",
+          "name": "Left",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 235,
+            "h": 16,
+            "x": 8,
+            "y": 4
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "RESIZE_TO_FIT",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 12,
+            "counterGap": 10,
+            "padding": 0,
+            "reverseDraw": true,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "HUG",
+            "heightResize": "HUG",
+            "minW": null,
+            "minH": null,
+            "maxW": null,
+            "maxH": null
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,0)"
+            }
+          ],
+          "children": [
+            {
+              "id": "73:3915",
+              "type": "TEXT",
+              "opacity": 0.5,
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 23,
+                "h": 16
+              },
+              "text": {
+                "content": "Run",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Microsoft YaHei",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "73:3916",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 48,
+                "h": 16,
+                "x": 35
+              },
+              "text": {
+                "content": "stopped",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Microsoft YaHei",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "73:3917",
+              "type": "RECTANGLE",
+              "name": "矩形备份 37",
+              "opacity": 0.1,
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 1,
+                "h": 16,
+                "x": 95
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,1)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "strokeWeight": 1
+            },
+            {
+              "id": "73:3918",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 63,
+                "h": 16,
+                "x": 108
+              },
+              "text": {
+                "content": "Iteration: 0",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Microsoft YaHei",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "73:3919",
+              "type": "RECTANGLE",
+              "name": "矩形备份 37",
+              "opacity": 0.1,
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "stroke": {
+                "align": "INSIDE",
+                "join": "MITER",
+                "cap": "NONE"
+              },
+              "box": {
+                "w": 1,
+                "h": 16,
+                "x": 183
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,1)"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "solid",
+                  "value": "rgba(0,0,0,0)"
+                }
+              ],
+              "strokeWeight": 1
+            },
+            {
+              "id": "73:3920",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 39,
+                "h": 16,
+                "x": 196
+              },
+              "text": {
+                "content": "Step: 0",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Microsoft YaHei",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "73:3921",
+          "type": "FRAME",
+          "name": "Left",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 415,
+            "h": 16,
+            "x": 1017,
+            "y": 4
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "RESIZE_TO_FIT",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 12,
+            "counterGap": 10,
+            "padding": 0,
+            "reverseDraw": true,
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "itemHoriAlign": "MAX",
+            "align": "center",
+            "includeBorders": false,
+            "widthResize": "FIXED",
+            "heightResize": "HUG",
+            "minW": null,
+            "minH": null,
+            "maxW": null,
+            "maxH": null
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,0)"
+            }
+          ],
+          "children": [
+            {
+              "id": "73:3922",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 112,
+                "h": 16,
+                "x": -50
+              },
+              "text": {
+                "content": "Algorithm progress",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Microsoft YaHei",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "73:3923",
+              "type": "GROUP",
+              "name": "组合 17",
+              "frameMaskDisabled": false,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 200,
+                "h": 4,
+                "x": 74,
+                "y": 6
+              },
+              "children": [
+                {
+                  "id": "73:3924",
+                  "type": "RECTANGLE",
+                  "name": "矩形 58",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 200,
+                    "h": 4
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(238,239,241,1)"
+                    }
+                  ],
+                  "radius": 2
+                },
+                {
+                  "id": "73:3925",
+                  "type": "RECTANGLE",
+                  "name": "矩形 59",
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 200,
+                    "h": 4
+                  },
+                  "fills": [
+                    {
+                      "type": "solid",
+                      "value": "rgba(26,119,253,1)"
+                    }
+                  ],
+                  "radius": 2
+                }
+              ]
+            },
+            {
+              "id": "73:3926",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "box": {
+                "w": 129,
+                "h": 16,
+                "x": 286
+              },
+              "text": {
+                "content": "competed Iteration 69",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Microsoft YaHei",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {}
+}

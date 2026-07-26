@@ -1,0 +1,574 @@
+{
+  "stats": {
+    "source": {
+      "variableMap": 0,
+      "variableSetMap": 0,
+      "localStyleMap": 0
+    },
+    "outputBytes": 7453
+  },
+  "roots": [
+    {
+      "id": "35:2484",
+      "type": "FRAME",
+      "name": "画板 330",
+      "frameMaskDisabled": true,
+      "blendMode": "PASS_THROUGH",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "stroke": {
+        "align": "INSIDE",
+        "join": "MITER",
+        "cap": "NONE"
+      },
+      "box": {
+        "w": 1032,
+        "h": 24
+      },
+      "autoLayout": {
+        "direction": "VERTICAL",
+        "mode": "VERTICAL",
+        "primarySizing": "RESIZE_TO_FIT",
+        "counterSizing": "FIXED",
+        "childPrimarySizing": "FIXED",
+        "childCounterSizing": "FIXED",
+        "gap": 16,
+        "counterGap": 10,
+        "padding": 0,
+        "reverseDraw": true,
+        "counterAlign": "flex-start",
+        "itemHoriAlign": "MIN",
+        "align": "center",
+        "includeBorders": false,
+        "minW": null,
+        "minH": null,
+        "maxW": null,
+        "maxH": null
+      },
+      "fills": [
+        {
+          "type": "solid",
+          "value": "rgba(255,255,255,0)"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "solid",
+          "value": "rgba(0,0,0,0)"
+        }
+      ],
+      "strokeWeight": 1,
+      "children": [
+        {
+          "id": "35:2485",
+          "type": "FRAME",
+          "name": "画板 143",
+          "frameMaskDisabled": true,
+          "blendMode": "PASS_THROUGH",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "box": {
+            "w": 1032,
+            "h": 24
+          },
+          "autoLayout": {
+            "direction": "HORIZONTAL",
+            "mode": "HORIZONTAL",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "childPrimarySizing": "FIXED",
+            "childCounterSizing": "FIXED",
+            "gap": 0,
+            "counterGap": 0,
+            "padding": [
+              0,
+              0,
+              0,
+              8
+            ],
+            "counterAlign": "center",
+            "itemVertAlign": "CENTER",
+            "itemHoriAlign": "SPACE_EVENLY",
+            "align": "space-between",
+            "includeBorders": false,
+            "widthResize": "FIXED",
+            "heightResize": "FIXED",
+            "minW": 0,
+            "minH": 0
+          },
+          "fills": [
+            {
+              "type": "solid",
+              "value": "rgba(255,255,255,0)"
+            }
+          ],
+          "children": [
+            {
+              "id": "35:2486",
+              "type": "TEXT",
+              "blendMode": "PASS_THROUGH",
+              "showMask": true,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 47,
+                "h": 14,
+                "x": 8,
+                "y": 5
+              },
+              "text": {
+                "content": "Backend",
+                "autoResize": "WIDTH_AND_HEIGHT",
+                "fontFamily": "Arial",
+                "fontStyle": "Regular",
+                "fontSize": 12,
+                "fontWeight": 400,
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textAlignHorizontal": "left",
+                "textAlignVertical": "top",
+                "textDecoration": "none",
+                "textCase": "origin",
+                "textTruncation": "DISABLED",
+                "maxLines": 0
+              },
+              "fills": [
+                {
+                  "type": "solid",
+                  "value": "rgba(102,102,102,1)"
+                }
+              ]
+            },
+            {
+              "id": "35:2487",
+              "type": "FRAME",
+              "name": "容器 389",
+              "frameMaskDisabled": true,
+              "blendMode": "PASS_THROUGH",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "box": {
+                "w": 808,
+                "h": 16,
+                "x": 224,
+                "y": 4
+              },
+              "autoLayout": {
+                "direction": "HORIZONTAL",
+                "mode": "HORIZONTAL",
+                "primarySizing": "FIXED",
+                "counterSizing": "RESIZE_TO_FIT",
+                "childPrimarySizing": "FIXED",
+                "childCounterSizing": "FIXED",
+                "gap": 24,
+                "counterGap": 0,
+                "padding": 0,
+                "counterAlign": "flex-start",
+                "itemVertAlign": "MIN",
+                "align": "center",
+                "widthResize": "FIXED",
+                "heightResize": "HUG",
+                "minW": 0,
+                "minH": 0
+              },
+              "children": [
+                {
+                  "id": "35:2488",
+                  "type": "FRAME",
+                  "name": "容器 388",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 55,
+                    "h": 16
+                  },
+                  "autoLayout": {
+                    "direction": "HORIZONTAL",
+                    "mode": "HORIZONTAL",
+                    "primarySizing": "RESIZE_TO_FIT",
+                    "counterSizing": "RESIZE_TO_FIT",
+                    "childPrimarySizing": "FIXED",
+                    "childCounterSizing": "FIXED",
+                    "gap": 8,
+                    "counterGap": 0,
+                    "padding": 0,
+                    "counterAlign": "center",
+                    "itemVertAlign": "CENTER",
+                    "align": "center",
+                    "widthResize": "HUG",
+                    "heightResize": "HUG",
+                    "minW": 0,
+                    "minH": 0
+                  },
+                  "children": [
+                    {
+                      "id": "35:2489",
+                      "type": "INSTANCE",
+                      "name": "选中/未选中",
+                      "box": {
+                        "y": 1
+                      },
+                      "componentRef": "4:1457",
+                      "componentSetRef": "4:1456",
+                      "children": [
+                        {
+                          "componentNodeRef": "4:1458",
+                          "type": "RECTANGLE",
+                          "name": "矩形",
+                          "override": {
+                            "fills": [
+                              {
+                                "type": "solid",
+                                "value": "rgba(26,119,253,0)"
+                              }
+                            ],
+                            "strokes": [
+                              {
+                                "type": "solid",
+                                "value": "rgba(26,119,253,1)"
+                              }
+                            ],
+                            "strokeWeight": 5,
+                            "radius": 7
+                          }
+                        },
+                        {
+                          "id": "255:339",
+                          "type": "RECTANGLE",
+                          "name": "矩形",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "SCALE",
+                            "vertical": "SCALE"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(26,119,253,0)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(26,119,253,1)"
+                            }
+                          ],
+                          "radius": 7,
+                          "strokeWeight": 5
+                        },
+                        {
+                          "componentNodeRef": "4:1459",
+                          "type": "FRAME",
+                          "name": "编组 39",
+                          "override": {
+                            "visible": false
+                          },
+                          "vectorRef": "4:1459",
+                          "assetType": "icon",
+                          "childrenSummary": {
+                            "total": 1,
+                            "omitted": 1,
+                            "reason": "vector-icon"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "35:2490",
+                      "type": "TEXT",
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 33,
+                        "h": 16,
+                        "x": 22
+                      },
+                      "text": {
+                        "content": "Ceres",
+                        "autoResize": "WIDTH_AND_HEIGHT",
+                        "fontFamily": "Arial",
+                        "fontStyle": "Regular",
+                        "fontSize": 12,
+                        "fontWeight": 400,
+                        "lineHeight": 16,
+                        "lineHeightUnit": "PIXELS",
+                        "letterSpacing": 0,
+                        "letterSpacingUnit": "PIXELS",
+                        "textAlignHorizontal": "left",
+                        "textAlignVertical": "top",
+                        "textDecoration": "none",
+                        "textCase": "origin",
+                        "textTruncation": "ENDING",
+                        "maxLines": 2
+                      },
+                      "fills": [
+                        {
+                          "type": "solid",
+                          "value": "rgba(15,15,15,0)"
+                        },
+                        {
+                          "type": "solid",
+                          "value": "rgba(26,119,253,1)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "35:2491",
+                  "type": "FRAME",
+                  "name": "容器 388",
+                  "frameMaskDisabled": true,
+                  "blendMode": "PASS_THROUGH",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "box": {
+                    "w": 151,
+                    "h": 16,
+                    "x": 79
+                  },
+                  "autoLayout": {
+                    "direction": "HORIZONTAL",
+                    "mode": "HORIZONTAL",
+                    "primarySizing": "RESIZE_TO_FIT",
+                    "counterSizing": "RESIZE_TO_FIT",
+                    "childPrimarySizing": "FIXED",
+                    "childCounterSizing": "FIXED",
+                    "gap": 8,
+                    "counterGap": 0,
+                    "padding": 0,
+                    "counterAlign": "center",
+                    "itemVertAlign": "CENTER",
+                    "align": "center",
+                    "widthResize": "HUG",
+                    "heightResize": "HUG",
+                    "minW": 0,
+                    "minH": 0
+                  },
+                  "children": [
+                    {
+                      "id": "35:2492",
+                      "type": "INSTANCE",
+                      "name": "选中/未选中",
+                      "box": {
+                        "y": 1
+                      },
+                      "componentRef": "4:1457",
+                      "componentSetRef": "4:1456",
+                      "children": [
+                        {
+                          "componentNodeRef": "4:1458",
+                          "type": "RECTANGLE",
+                          "name": "矩形",
+                          "override": {
+                            "fills": [
+                              {
+                                "type": "solid",
+                                "value": "rgba(26,119,253,0)"
+                              },
+                              {
+                                "type": "solid",
+                                "value": "rgba(255,255,255,1)"
+                              }
+                            ],
+                            "strokes": [
+                              {
+                                "type": "solid",
+                                "value": "rgba(0,0,0,0)"
+                              },
+                              {
+                                "type": "solid",
+                                "value": "rgba(212,216,220,1)"
+                              }
+                            ],
+                            "strokeWeight": 1,
+                            "radius": 7
+                          }
+                        },
+                        {
+                          "id": "255:266",
+                          "type": "RECTANGLE",
+                          "name": "矩形",
+                          "blendMode": "PASS_THROUGH",
+                          "showMask": true,
+                          "constraints": {
+                            "horizontal": "SCALE",
+                            "vertical": "SCALE"
+                          },
+                          "stroke": {
+                            "align": "INSIDE",
+                            "join": "MITER",
+                            "cap": "NONE"
+                          },
+                          "box": {
+                            "w": 14,
+                            "h": 14
+                          },
+                          "fills": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(26,119,253,0)"
+                            },
+                            {
+                              "type": "solid",
+                              "value": "rgba(255,255,255,1)"
+                            }
+                          ],
+                          "strokes": [
+                            {
+                              "type": "solid",
+                              "value": "rgba(0,0,0,0)"
+                            },
+                            {
+                              "type": "solid",
+                              "value": "rgba(212,216,220,1)"
+                            }
+                          ],
+                          "radius": 7,
+                          "strokeWeight": 1
+                        },
+                        {
+                          "componentNodeRef": "4:1459",
+                          "type": "FRAME",
+                          "name": "编组 39",
+                          "override": {
+                            "visible": false
+                          },
+                          "vectorRef": "4:1459",
+                          "assetType": "icon",
+                          "childrenSummary": {
+                            "total": 1,
+                            "omitted": 1,
+                            "reason": "vector-icon"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "35:2493",
+                      "type": "TEXT",
+                      "blendMode": "PASS_THROUGH",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "box": {
+                        "w": 129,
+                        "h": 16,
+                        "x": 22
+                      },
+                      "text": {
+                        "content": "Apache Commons Math",
+                        "autoResize": "WIDTH_AND_HEIGHT",
+                        "fontFamily": "Arial",
+                        "fontStyle": "Regular",
+                        "fontSize": 12,
+                        "fontWeight": 400,
+                        "lineHeight": 16,
+                        "lineHeightUnit": "PIXELS",
+                        "letterSpacing": 0,
+                        "letterSpacingUnit": "PIXELS",
+                        "textAlignHorizontal": "left",
+                        "textAlignVertical": "top",
+                        "textDecoration": "none",
+                        "textCase": "origin",
+                        "textTruncation": "ENDING",
+                        "maxLines": 2
+                      },
+                      "fills": [
+                        {
+                          "type": "solid",
+                          "value": "rgba(15,15,15,1)"
+                        },
+                        {
+                          "type": "solid",
+                          "value": "rgba(26,119,253,0)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refsIndex": {
+    "componentSets": [
+      {
+        "id": "4:1456",
+        "name": "选中/未选中",
+        "componentKey": "2fc475c5973f0679839a727b5f80eb671af81979",
+        "propertyDefinitions": [
+          {
+            "name": "属性 1",
+            "values": [
+              "默认",
+              "选中"
+            ]
+          }
+        ],
+        "variants": [
+          {
+            "id": "4:1457",
+            "name": "属性 1=选中",
+            "componentKey": "79506f4e71788c4884f56d51c0ec842e8137ff28",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "选中"
+              }
+            ]
+          },
+          {
+            "id": "4:1461",
+            "name": "属性 1=默认",
+            "componentKey": "4bb8703942f891157ad41af5053e09d0abbd65f9",
+            "properties": [
+              {
+                "name": "属性 1",
+                "value": "默认"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instances": [
+      "35:2489",
+      "35:2492"
+    ],
+    "vectors": [
+      "4:1459"
+    ]
+  }
+}
