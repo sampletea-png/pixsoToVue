@@ -1,0 +1,19 @@
+# 运行产物（skill 执行时生成，不入库）
+artifacts/
+output/
+generated-project/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node（目标 Vue 项目）
+node_modules/
+dist/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
